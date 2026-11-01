@@ -1,0 +1,7007 @@
+{
+  "title": "Python Interview Quiz Game",
+  "version": "2.0",
+  "description": "Python practice from beginner to advanced.",
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "What is Python?",
+      "options": [
+        "A high-level, general-purpose programming language",
+        "A database",
+        "An operating system",
+        "A markup language"
+      ],
+      "answer": "A high-level, general-purpose programming language",
+      "explanation": "Python is a high-level language used for scripting, automation, web development, data work, and more."
+    },
+    {
+      "id": 2,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which function displays output in Python?",
+      "options": [
+        "input()",
+        "display()",
+        "write()",
+        "print()"
+      ],
+      "answer": "print()",
+      "explanation": "print() writes text or values to standard output."
+    },
+    {
+      "id": 3,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which function reads keyboard input?",
+      "options": [
+        "readline()",
+        "get()",
+        "input()",
+        "scan()"
+      ],
+      "answer": "input()",
+      "explanation": "input() reads a line from the user and returns it as a string."
+    },
+    {
+      "id": 4,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "What is the result of type(10)?",
+      "options": [
+        "<class 'number'>",
+        "<class 'int'>",
+        "<class 'float'>",
+        "<class 'str'>"
+      ],
+      "answer": "<class 'int'>",
+      "explanation": "An integer literal such as 10 has type int."
+    },
+    {
+      "id": 5,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which symbol starts a single-line comment?",
+      "options": [
+        "#",
+        "//",
+        "<!--",
+        "/*"
+      ],
+      "answer": "#",
+      "explanation": "Python comments begin with #."
+    },
+    {
+      "id": 6,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which is a valid variable name?",
+      "options": [
+        "2student",
+        "student-name",
+        "class",
+        "student_name"
+      ],
+      "answer": "student_name",
+      "explanation": "Names can contain letters, digits and underscores, but cannot start with a digit or be a keyword."
+    },
+    {
+      "id": 7,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "What does len('Python') return?",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "5"
+      ],
+      "answer": "6",
+      "explanation": "len() returns the number of characters in the string."
+    },
+    {
+      "id": 8,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which value represents the absence of a value?",
+      "options": [
+        "empty",
+        "None",
+        "null",
+        "void"
+      ],
+      "answer": "None",
+      "explanation": "Python uses the singleton None to represent absence of a value."
+    },
+    {
+      "id": 9,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which collection is ordered and mutable?",
+      "options": [
+        "list",
+        "tuple",
+        "frozenset",
+        "str"
+      ],
+      "answer": "list",
+      "explanation": "Lists preserve order and can be changed after creation."
+    },
+    {
+      "id": 10,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which collection is immutable?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answer": "tuple",
+      "explanation": "A tuple cannot have its element references reassigned after creation."
+    },
+    {
+      "id": 11,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 // 2?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "3.5"
+      ],
+      "answer": "3",
+      "explanation": "// performs floor division."
+    },
+    {
+      "id": 12,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 % 2?",
+      "options": [
+        "0",
+        "1",
+        "3",
+        "3.5"
+      ],
+      "answer": "1",
+      "explanation": "% returns the remainder."
+    },
+    {
+      "id": 13,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which operator checks equality?",
+      "options": [
+        "==",
+        "=",
+        "===",
+        "!="
+      ],
+      "answer": "==",
+      "explanation": "== compares values; = assigns a value."
+    },
+    {
+      "id": 14,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which keyword defines a function?",
+      "options": [
+        "func",
+        "function",
+        "define",
+        "def"
+      ],
+      "answer": "def",
+      "explanation": "Functions are declared with def."
+    },
+    {
+      "id": 15,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which keyword returns a value from a function?",
+      "options": [
+        "break",
+        "send",
+        "return",
+        "yield"
+      ],
+      "answer": "return",
+      "explanation": "return exits the function and sends a result to its caller."
+    },
+    {
+      "id": 16,
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "question": "Which string method converts text to lowercase?",
+      "options": [
+        "small()",
+        "lower()",
+        "down()",
+        "casefolded()"
+      ],
+      "answer": "lower()",
+      "explanation": "lower() returns a lowercase copy of a string."
+    },
+    {
+      "id": 17,
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "question": "What does 'Python'[0] return?",
+      "options": [
+        "P",
+        "y",
+        "n",
+        "Python"
+      ],
+      "answer": "P",
+      "explanation": "String indexing starts at zero."
+    },
+    {
+      "id": 18,
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "question": "What does 'Python'[-1] return?",
+      "options": [
+        "P",
+        "o",
+        "IndexError",
+        "n"
+      ],
+      "answer": "n",
+      "explanation": "Negative index -1 selects the final character."
+    },
+    {
+      "id": 19,
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "question": "Which method splits a string into a list?",
+      "options": [
+        "partition_all()",
+        "divide()",
+        "split()",
+        "join()"
+      ],
+      "answer": "split()",
+      "explanation": "split() separates a string using a delimiter, whitespace by default."
+    },
+    {
+      "id": 20,
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "question": "Which method removes whitespace at both ends?",
+      "options": [
+        "remove()",
+        "strip()",
+        "trim()",
+        "clean()"
+      ],
+      "answer": "strip()",
+      "explanation": "strip() returns a copy without leading and trailing whitespace."
+    },
+    {
+      "id": 21,
+      "topic": "Collections",
+      "difficulty": "Easy",
+      "question": "How do you add one item to a list?",
+      "options": [
+        "append()",
+        "add()",
+        "push()",
+        "insert_end()"
+      ],
+      "answer": "append()",
+      "explanation": "append() adds one item at the end of a list."
+    },
+    {
+      "id": 22,
+      "topic": "Collections",
+      "difficulty": "Easy",
+      "question": "How do you add an item to a set?",
+      "options": [
+        "append()",
+        "put()",
+        "insert_end()",
+        "add()"
+      ],
+      "answer": "add()",
+      "explanation": "Sets use add() to include an element."
+    },
+    {
+      "id": 23,
+      "topic": "Collections",
+      "difficulty": "Easy",
+      "question": "Which structure stores key-value pairs?",
+      "options": [
+        "tuple",
+        "set",
+        "dictionary",
+        "list"
+      ],
+      "answer": "dictionary",
+      "explanation": "Dictionaries map unique keys to values."
+    },
+    {
+      "id": 24,
+      "topic": "Collections",
+      "difficulty": "Easy",
+      "question": "How do you access dictionary key 'name' in d?",
+      "options": [
+        "d->name",
+        "d['name']",
+        "d.name",
+        "d(name)"
+      ],
+      "answer": "d['name']",
+      "explanation": "Square-bracket indexing retrieves the value associated with a key."
+    },
+    {
+      "id": 25,
+      "topic": "Collections",
+      "difficulty": "Easy",
+      "question": "What does set([1,1,2]) contain?",
+      "options": [
+        "{1, 2}",
+        "[1, 1, 2]",
+        "(1, 1, 2)",
+        "{1, 1, 2}"
+      ],
+      "answer": "{1, 2}",
+      "explanation": "A set stores unique elements."
+    },
+    {
+      "id": 26,
+      "topic": "Control Flow",
+      "difficulty": "Easy",
+      "question": "Which keyword begins a conditional branch?",
+      "options": [
+        "when",
+        "switch",
+        "case",
+        "if"
+      ],
+      "answer": "if",
+      "explanation": "if evaluates a condition and runs its indented suite when true."
+    },
+    {
+      "id": 27,
+      "topic": "Control Flow",
+      "difficulty": "Easy",
+      "question": "Which keyword handles the alternative branch?",
+      "options": [
+        "elif",
+        "default",
+        "else",
+        "otherwise"
+      ],
+      "answer": "else",
+      "explanation": "else runs when preceding if/elif conditions are false."
+    },
+    {
+      "id": 28,
+      "topic": "Control Flow",
+      "difficulty": "Easy",
+      "question": "Which loop iterates over items in a sequence?",
+      "options": [
+        "loop",
+        "for",
+        "repeat",
+        "foreach"
+      ],
+      "answer": "for",
+      "explanation": "for iterates over items from an iterable."
+    },
+    {
+      "id": 29,
+      "topic": "Control Flow",
+      "difficulty": "Easy",
+      "question": "Which statement exits a loop immediately?",
+      "options": [
+        "break",
+        "continue",
+        "pass",
+        "stop"
+      ],
+      "answer": "break",
+      "explanation": "break terminates the nearest enclosing loop."
+    },
+    {
+      "id": 30,
+      "topic": "Control Flow",
+      "difficulty": "Easy",
+      "question": "Which statement skips to the next loop iteration?",
+      "options": [
+        "break",
+        "pass",
+        "return",
+        "continue"
+      ],
+      "answer": "continue",
+      "explanation": "continue skips the remaining loop body for the current iteration."
+    },
+    {
+      "id": 31,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "What is a default parameter?",
+      "options": [
+        "A global variable",
+        "A return value",
+        "A parameter with a value used when no argument is supplied",
+        "A parameter that must always be supplied"
+      ],
+      "answer": "A parameter with a value used when no argument is supplied",
+      "explanation": "Default values make function arguments optional."
+    },
+    {
+      "id": 32,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "What does *args collect?",
+      "options": [
+        "The return values",
+        "Extra positional arguments as a tuple",
+        "Extra keyword arguments as a dict",
+        "A list of local variables"
+      ],
+      "answer": "Extra positional arguments as a tuple",
+      "explanation": "*args gathers additional positional arguments into a tuple."
+    },
+    {
+      "id": 33,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "What does **kwargs collect?",
+      "options": [
+        "Extra keyword arguments as a dictionary",
+        "Extra positional arguments as a tuple",
+        "Only integer arguments",
+        "Global names"
+      ],
+      "answer": "Extra keyword arguments as a dictionary",
+      "explanation": "**kwargs gathers additional named arguments into a dictionary."
+    },
+    {
+      "id": 34,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "What is a lambda function?",
+      "options": [
+        "A class constructor",
+        "A loop",
+        "A module",
+        "A small anonymous function expression"
+      ],
+      "answer": "A small anonymous function expression",
+      "explanation": "lambda creates a function object from a single expression."
+    },
+    {
+      "id": 35,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "What does a function return if it has no return statement?",
+      "options": [
+        "False",
+        "An empty string",
+        "None",
+        "0"
+      ],
+      "answer": "None",
+      "explanation": "Python functions implicitly return None when no return value is specified."
+    },
+    {
+      "id": 36,
+      "topic": "Scope",
+      "difficulty": "Medium",
+      "question": "What does LEGB describe?",
+      "options": [
+        "Local, External, General, Base",
+        "Local, Enclosing, Global, Built-in name lookup",
+        "List, Expression, Generator, Boolean",
+        "Load, Execute, Generate, Build"
+      ],
+      "answer": "Local, Enclosing, Global, Built-in name lookup",
+      "explanation": "LEGB is the standard name-resolution order for Python functions."
+    },
+    {
+      "id": 37,
+      "topic": "Scope",
+      "difficulty": "Medium",
+      "question": "Which keyword allows assignment to a module-level variable inside a function?",
+      "options": [
+        "global",
+        "static",
+        "extern",
+        "public"
+      ],
+      "answer": "global",
+      "explanation": "global declares that a name refers to the module-level binding."
+    },
+    {
+      "id": 38,
+      "topic": "Scope",
+      "difficulty": "Medium",
+      "question": "Which keyword refers to a variable in the nearest enclosing function scope?",
+      "options": [
+        "global",
+        "outer",
+        "parent",
+        "nonlocal"
+      ],
+      "answer": "nonlocal",
+      "explanation": "nonlocal rebinds a name in an enclosing function scope."
+    },
+    {
+      "id": 39,
+      "topic": "Exceptions",
+      "difficulty": "Medium",
+      "question": "Which block handles an exception?",
+      "options": [
+        "handle",
+        "rescue",
+        "except",
+        "catch"
+      ],
+      "answer": "except",
+      "explanation": "Python uses except clauses to handle raised exceptions."
+    },
+    {
+      "id": 40,
+      "topic": "Exceptions",
+      "difficulty": "Medium",
+      "question": "Which block runs whether or not an exception occurs?",
+      "options": [
+        "ensure",
+        "finally",
+        "else",
+        "except"
+      ],
+      "answer": "finally",
+      "explanation": "finally is used for cleanup that should happen in either case."
+    },
+    {
+      "id": 41,
+      "topic": "Exceptions",
+      "difficulty": "Medium",
+      "question": "How do you raise an exception manually?",
+      "options": [
+        "raise",
+        "throw",
+        "error",
+        "except"
+      ],
+      "answer": "raise",
+      "explanation": "raise signals an exception."
+    },
+    {
+      "id": 42,
+      "topic": "Exceptions",
+      "difficulty": "Medium",
+      "question": "What is the base class for most built-in non-system-exiting exceptions?",
+      "options": [
+        "BaseExceptionGroup",
+        "object",
+        "RuntimeError",
+        "Exception"
+      ],
+      "answer": "Exception",
+      "explanation": "Most application exceptions derive from Exception."
+    },
+    {
+      "id": 43,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "What is a class?",
+      "options": [
+        "A package manager",
+        "A database row",
+        "A blueprint for creating objects",
+        "A loop type"
+      ],
+      "answer": "A blueprint for creating objects",
+      "explanation": "A class defines attributes and behavior for its instances."
+    },
+    {
+      "id": 44,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "What is an instance?",
+      "options": [
+        "A decorator",
+        "An object created from a class",
+        "A function parameter",
+        "A module alias"
+      ],
+      "answer": "An object created from a class",
+      "explanation": "An instance is a concrete object of a class."
+    },
+    {
+      "id": 45,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "What is self conventionally used for?",
+      "options": [
+        "The current instance inside an instance method",
+        "The parent class",
+        "The current module",
+        "A global object"
+      ],
+      "answer": "The current instance inside an instance method",
+      "explanation": "self refers to the instance passed to an instance method."
+    },
+    {
+      "id": 46,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "Which method is commonly used to initialize a new instance?",
+      "options": [
+        "__start__()",
+        "__new_instance__()",
+        "constructor()",
+        "__init__()"
+      ],
+      "answer": "__init__()",
+      "explanation": "__init__ initializes an instance after it is created."
+    },
+    {
+      "id": 47,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "What is inheritance?",
+      "options": [
+        "Converting code to bytecode",
+        "Running functions concurrently",
+        "Creating a class based on another class",
+        "Hiding all methods"
+      ],
+      "answer": "Creating a class based on another class",
+      "explanation": "Inheritance lets a subclass reuse and specialize a base class."
+    },
+    {
+      "id": 48,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "What is method overriding?",
+      "options": [
+        "Changing a variable type",
+        "A subclass provides its own implementation of an inherited method",
+        "Calling a method twice",
+        "Deleting a method"
+      ],
+      "answer": "A subclass provides its own implementation of an inherited method",
+      "explanation": "Overriding customizes inherited behavior in a subclass."
+    },
+    {
+      "id": 49,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "What does isinstance(x, T) check?",
+      "options": [
+        "Whether x is an instance of T or its subclass",
+        "Whether x is callable",
+        "Whether x is hashable",
+        "Whether x is a module"
+      ],
+      "answer": "Whether x is an instance of T or its subclass",
+      "explanation": "isinstance supports class and inheritance-aware type checks."
+    },
+    {
+      "id": 50,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "What is encapsulation?",
+      "options": [
+        "Executing code in parallel",
+        "Sorting objects",
+        "Copying a class",
+        "Bundling data and methods while controlling access to implementation details"
+      ],
+      "answer": "Bundling data and methods while controlling access to implementation details",
+      "explanation": "Encapsulation organizes state and behavior behind an interface."
+    },
+    {
+      "id": 51,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "What does @classmethod receive as its first argument?",
+      "options": [
+        "The module",
+        "No implicit argument",
+        "The class, conventionally named cls",
+        "The instance, always self"
+      ],
+      "answer": "The class, conventionally named cls",
+      "explanation": "A class method receives the class object as its first argument."
+    },
+    {
+      "id": 52,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "What does @staticmethod receive automatically?",
+      "options": [
+        "The module name",
+        "No implicit instance or class argument",
+        "self",
+        "cls"
+      ],
+      "answer": "No implicit instance or class argument",
+      "explanation": "A static method behaves like a function placed in a class namespace."
+    },
+    {
+      "id": 53,
+      "topic": "Modules",
+      "difficulty": "Easy",
+      "question": "What is a Python module?",
+      "options": [
+        "A Python file containing definitions and statements",
+        "Only a folder of images",
+        "A database server",
+        "A virtual machine"
+      ],
+      "answer": "A Python file containing definitions and statements",
+      "explanation": "A module is commonly a .py file that can be imported."
+    },
+    {
+      "id": 54,
+      "topic": "Modules",
+      "difficulty": "Medium",
+      "question": "What does import math do?",
+      "options": [
+        "Installs Python",
+        "Runs every file in the folder",
+        "Creates a virtual environment",
+        "Makes the math module available in the current namespace"
+      ],
+      "answer": "Makes the math module available in the current namespace",
+      "explanation": "import loads or retrieves a module and binds its name."
+    },
+    {
+      "id": 55,
+      "topic": "Modules",
+      "difficulty": "Medium",
+      "question": "What is the purpose of if __name__ == '__main__'?",
+      "options": [
+        "Declare a class",
+        "Enable type checking",
+        "Run code only when the file is executed as the main program",
+        "Prevent all imports"
+      ],
+      "answer": "Run code only when the file is executed as the main program",
+      "explanation": "When imported, a module's __name__ is normally its module name, not '__main__'."
+    },
+    {
+      "id": 56,
+      "topic": "Files",
+      "difficulty": "Easy",
+      "question": "Which mode opens a file for reading text?",
+      "options": [
+        "x",
+        "r",
+        "w",
+        "a"
+      ],
+      "answer": "r",
+      "explanation": "The r mode opens an existing file for reading."
+    },
+    {
+      "id": 57,
+      "topic": "Files",
+      "difficulty": "Medium",
+      "question": "Why is 'with open(...)' recommended?",
+      "options": [
+        "It ensures the file is closed when the block exits",
+        "It encrypts the file",
+        "It makes every write atomic",
+        "It prevents all I/O errors"
+      ],
+      "answer": "It ensures the file is closed when the block exits",
+      "explanation": "A context manager handles resource cleanup, including when an exception occurs."
+    },
+    {
+      "id": 58,
+      "topic": "Files",
+      "difficulty": "Medium",
+      "question": "What does file.read() return for a text file?",
+      "options": [
+        "Always a list of lines",
+        "A file path",
+        "A Boolean",
+        "The remaining text as a string"
+      ],
+      "answer": "The remaining text as a string",
+      "explanation": "read() reads text from the current file position."
+    },
+    {
+      "id": 59,
+      "topic": "Files",
+      "difficulty": "Medium",
+      "question": "What does file.readline() return?",
+      "options": [
+        "The file size",
+        "A list of characters",
+        "The next line as a string",
+        "All lines as a dictionary"
+      ],
+      "answer": "The next line as a string",
+      "explanation": "readline() reads one line, including its newline when present."
+    },
+    {
+      "id": 60,
+      "topic": "Files",
+      "difficulty": "Medium",
+      "question": "Which standard module works with JSON data?",
+      "options": [
+        " pathlib",
+        "json",
+        "pickle",
+        "csv"
+      ],
+      "answer": "json",
+      "explanation": "The json module encodes and decodes JSON."
+    },
+    {
+      "id": 61,
+      "topic": "Comprehensions",
+      "difficulty": "Medium",
+      "question": "What does [x*x for x in range(3)] produce?",
+      "options": [
+        "[0, 1, 4]",
+        "[1, 4, 9]",
+        "[0, 1, 2]",
+        "[0, 2, 4]"
+      ],
+      "answer": "[0, 1, 4]",
+      "explanation": "The expression squares 0, 1, and 2."
+    },
+    {
+      "id": 62,
+      "topic": "Comprehensions",
+      "difficulty": "Medium",
+      "question": "What is a dictionary comprehension?",
+      "options": [
+        "A dictionary comment",
+        "A class method",
+        "A JSON parser",
+        "A concise expression that constructs a dictionary from an iterable"
+      ],
+      "answer": "A concise expression that constructs a dictionary from an iterable",
+      "explanation": "Dictionary comprehensions use key:value expressions inside braces."
+    },
+    {
+      "id": 63,
+      "topic": "Iterators",
+      "difficulty": "Medium",
+      "question": "What does iter(obj) return?",
+      "options": [
+        "The object's type name",
+        "The first item only",
+        "An iterator for obj, if it is iterable",
+        "A list copy in every case"
+      ],
+      "answer": "An iterator for obj, if it is iterable",
+      "explanation": "iter() obtains an iterator by calling the object's iterator protocol."
+    },
+    {
+      "id": 64,
+      "topic": "Iterators",
+      "difficulty": "Medium",
+      "question": "What does next(it) do?",
+      "options": [
+        "Closes the iterator",
+        "Returns the next item or raises StopIteration",
+        "Restarts the iterator",
+        "Sorts remaining items"
+      ],
+      "answer": "Returns the next item or raises StopIteration",
+      "explanation": "next() advances an iterator."
+    },
+    {
+      "id": 65,
+      "topic": "Generators",
+      "difficulty": "Medium",
+      "question": "Which keyword yields a value from a generator function?",
+      "options": [
+        "yield",
+        "return only",
+        "await",
+        "emit"
+      ],
+      "answer": "yield",
+      "explanation": "yield suspends the generator and preserves its local state."
+    },
+    {
+      "id": 66,
+      "topic": "Generators",
+      "difficulty": "Hard",
+      "question": "Why can generators be memory-efficient?",
+      "options": [
+        "They always run on another CPU",
+        "They compress objects",
+        "They remove duplicate values",
+        "They produce values lazily instead of storing the whole result"
+      ],
+      "answer": "They produce values lazily instead of storing the whole result",
+      "explanation": "A generator computes values as iteration requests them."
+    },
+    {
+      "id": 67,
+      "topic": "Decorators",
+      "difficulty": "Hard",
+      "question": "What is a decorator commonly used for?",
+      "options": [
+        "Creating a database",
+        "Replacing indentation",
+        "Wrapping or modifying a function or class",
+        "Declaring a package"
+      ],
+      "answer": "Wrapping or modifying a function or class",
+      "explanation": "A decorator takes a callable and usually returns a callable."
+    },
+    {
+      "id": 68,
+      "topic": "Decorators",
+      "difficulty": "Hard",
+      "question": "What does functools.wraps help preserve?",
+      "options": [
+        "The function's execution speed",
+        "Metadata such as the wrapped function's name and docstring",
+        "The function's local variable values",
+        "The operating system process ID"
+      ],
+      "answer": "Metadata such as the wrapped function's name and docstring",
+      "explanation": "wraps copies useful metadata and sets __wrapped__."
+    },
+    {
+      "id": 69,
+      "topic": "Context Managers",
+      "difficulty": "Hard",
+      "question": "Which methods define a basic class-based context manager?",
+      "options": [
+        "__enter__ and __exit__",
+        "__open__ and __close__",
+        "__start__ and __stop__",
+        "__iter__ and __next__"
+      ],
+      "answer": "__enter__ and __exit__",
+      "explanation": "The with statement calls __enter__ and later __exit__."
+    },
+    {
+      "id": 70,
+      "topic": "Typing",
+      "difficulty": "Medium",
+      "question": "What does a type hint primarily provide?",
+      "options": [
+        "Automatic runtime conversion",
+        "Guaranteed correctness",
+        "Faster execution in all cases",
+        "Information about intended types for readers and tools"
+      ],
+      "answer": "Information about intended types for readers and tools",
+      "explanation": "Python type hints are generally not enforced automatically at runtime."
+    },
+    {
+      "id": 71,
+      "topic": "Typing",
+      "difficulty": "Hard",
+      "question": "What does Optional[int] traditionally mean?",
+      "options": [
+        "Any numeric type",
+        "A list of integers",
+        "An int value or None",
+        "Only a missing value"
+      ],
+      "answer": "An int value or None",
+      "explanation": "Optional[T] is equivalent to T | None."
+    },
+    {
+      "id": 72,
+      "topic": "Dataclasses",
+      "difficulty": "Medium",
+      "question": "What can @dataclass generate automatically?",
+      "options": [
+        "A GUI",
+        "Methods such as __init__ and __repr__",
+        "A web server",
+        "A SQL database"
+      ],
+      "answer": "Methods such as __init__ and __repr__",
+      "explanation": "Dataclasses reduce boilerplate for classes primarily storing data."
+    },
+    {
+      "id": 73,
+      "topic": "Testing",
+      "difficulty": "Medium",
+      "question": "What is the purpose of a unit test?",
+      "options": [
+        "Check a small unit of behavior in isolation",
+        "Benchmark the whole internet",
+        "Deploy an application",
+        "Format source files"
+      ],
+      "answer": "Check a small unit of behavior in isolation",
+      "explanation": "Unit tests provide focused checks for functions or methods."
+    },
+    {
+      "id": 74,
+      "topic": "Testing",
+      "difficulty": "Medium",
+      "question": "Which standard library module provides a test framework?",
+      "options": [
+        "pytest",
+        "nose",
+        "tox",
+        "unittest"
+      ],
+      "answer": "unittest",
+      "explanation": "unittest is included in the Python standard library."
+    },
+    {
+      "id": 75,
+      "topic": "Debugging",
+      "difficulty": "Easy",
+      "question": "What does debugging mean?",
+      "options": [
+        "Installing an editor",
+        "Compressing source files",
+        "Finding and fixing defects in a program",
+        "Writing documentation only"
+      ],
+      "answer": "Finding and fixing defects in a program",
+      "explanation": "Debugging uses evidence such as errors, logs, and breakpoints to locate problems."
+    },
+    {
+      "id": 76,
+      "topic": "Debugging",
+      "difficulty": "Medium",
+      "question": "What is a traceback?",
+      "options": [
+        "A list of installed packages",
+        "A report showing the call stack when an exception occurred",
+        "A copy of the source repository",
+        "A performance chart"
+      ],
+      "answer": "A report showing the call stack when an exception occurred",
+      "explanation": "Tracebacks show where an exception propagated through function calls."
+    },
+    {
+      "id": 77,
+      "topic": "Debugging",
+      "difficulty": "Medium",
+      "question": "What does a breakpoint do in a debugger?",
+      "options": [
+        "Pauses execution at a selected location",
+        "Deletes a line",
+        "Restarts the computer",
+        "Commits code"
+      ],
+      "answer": "Pauses execution at a selected location",
+      "explanation": "Breakpoints let developers inspect program state during execution."
+    },
+    {
+      "id": 78,
+      "topic": "Performance",
+      "difficulty": "Medium",
+      "question": "What is the average time complexity of dictionary lookup by key?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answer": "O(1)",
+      "explanation": "Hash-table lookup is average-case constant time, though worst cases can be linear."
+    },
+    {
+      "id": 79,
+      "topic": "Performance",
+      "difficulty": "Hard",
+      "question": "What does Big-O notation describe?",
+      "options": [
+        "The number of comments",
+        "The file's byte size only",
+        "How resource use grows with input size asymptotically",
+        "Exact runtime on every computer"
+      ],
+      "answer": "How resource use grows with input size asymptotically",
+      "explanation": "Big-O expresses an asymptotic upper bound on growth."
+    },
+    {
+      "id": 80,
+      "topic": "Performance",
+      "difficulty": "Hard",
+      "question": "Why can repeated string concatenation in a loop be inefficient?",
+      "options": [
+        "The plus operator is invalid",
+        "It may repeatedly allocate and copy strings",
+        "Strings are mutable",
+        "The loop cannot terminate"
+      ],
+      "answer": "It may repeatedly allocate and copy strings",
+      "explanation": "Building a list and joining once is often more efficient for many fragments."
+    },
+    {
+      "id": 81,
+      "topic": "Concurrency",
+      "difficulty": "Hard",
+      "question": "What is the Global Interpreter Lock in CPython commonly associated with?",
+      "options": [
+        "A lock that limits simultaneous execution of Python bytecode threads",
+        "A database transaction",
+        "A file permission",
+        "A network protocol"
+      ],
+      "answer": "A lock that limits simultaneous execution of Python bytecode threads",
+      "explanation": "The GIL affects CPU-bound threading in standard CPython builds; details vary by version/build."
+    },
+    {
+      "id": 82,
+      "topic": "Concurrency",
+      "difficulty": "Hard",
+      "question": "Which standard module provides thread-based concurrency tools?",
+      "options": [
+        "multiprocessing only",
+        "asyncio only",
+        "subprocess only",
+        "threading"
+      ],
+      "answer": "threading",
+      "explanation": "threading provides thread objects, locks, events, and related primitives."
+    },
+    {
+      "id": 83,
+      "topic": "Concurrency",
+      "difficulty": "Hard",
+      "question": "When is multiprocessing often useful?",
+      "options": [
+        "Only for styling HTML",
+        "Only for parsing JSON",
+        "For CPU-bound work that can run in separate processes",
+        "For every tiny calculation"
+      ],
+      "answer": "For CPU-bound work that can run in separate processes",
+      "explanation": "Separate processes can use multiple CPU cores without sharing one interpreter GIL."
+    },
+    {
+      "id": 84,
+      "topic": "Async",
+      "difficulty": "Hard",
+      "question": "What does async def define?",
+      "options": [
+        "A class",
+        "A coroutine function",
+        "A generator only",
+        "A new operating system process"
+      ],
+      "answer": "A coroutine function",
+      "explanation": "Calling an async function creates a coroutine object."
+    },
+    {
+      "id": 85,
+      "topic": "Async",
+      "difficulty": "Hard",
+      "question": "What does await do?",
+      "options": [
+        "Suspends a coroutine until an awaitable completes",
+        "Starts a new thread every time",
+        "Blocks all Python processes",
+        "Converts a list to a tuple"
+      ],
+      "answer": "Suspends a coroutine until an awaitable completes",
+      "explanation": "await cooperates with an event loop while waiting for an awaitable."
+    },
+    {
+      "id": 86,
+      "topic": "Packaging",
+      "difficulty": "Medium",
+      "question": "What is pip primarily used for?",
+      "options": [
+        "Running SQL queries",
+        "Editing images",
+        "Compiling the operating system",
+        "Installing and managing Python packages"
+      ],
+      "answer": "Installing and managing Python packages",
+      "explanation": "pip installs packages from package indexes or other sources."
+    },
+    {
+      "id": 87,
+      "topic": "Packaging",
+      "difficulty": "Medium",
+      "question": "What is a virtual environment?",
+      "options": [
+        "A Python data type",
+        "A Git branch",
+        "An isolated Python environment for project dependencies",
+        "A cloud server"
+      ],
+      "answer": "An isolated Python environment for project dependencies",
+      "explanation": "Virtual environments keep project dependencies separate."
+    },
+    {
+      "id": 88,
+      "topic": "Packaging",
+      "difficulty": "Medium",
+      "question": "What is requirements.txt commonly used for?",
+      "options": [
+        "Defining HTML pages",
+        "Listing project dependencies",
+        "Storing passwords",
+        "Keeping source code backups"
+      ],
+      "answer": "Listing project dependencies",
+      "explanation": "pip can install listed dependencies using -r requirements.txt."
+    },
+    {
+      "id": 89,
+      "topic": "Version Control",
+      "difficulty": "Medium",
+      "question": "What does Git commit do?",
+      "options": [
+        "Records a snapshot of staged changes",
+        "Uploads code automatically to every server",
+        "Deletes the repository",
+        "Runs unit tests"
+      ],
+      "answer": "Records a snapshot of staged changes",
+      "explanation": "A commit records staged content in repository history."
+    },
+    {
+      "id": 90,
+      "topic": "Version Control",
+      "difficulty": "Medium",
+      "question": "What does git pull typically do?",
+      "options": [
+        "Only creates a local branch",
+        "Deletes remote history",
+        "Publishes a package to PyPI",
+        "Fetches and integrates changes from a remote"
+      ],
+      "answer": "Fetches and integrates changes from a remote",
+      "explanation": "git pull combines fetching with integration, commonly merge or rebase."
+    },
+    {
+      "id": 91,
+      "topic": "Security",
+      "difficulty": "Hard",
+      "question": "Why should secrets not be hard-coded in source code?",
+      "options": [
+        "Python cannot store strings",
+        "They prevent imports",
+        "They can leak through repositories, logs, or shared files",
+        "They slow every loop"
+      ],
+      "answer": "They can leak through repositories, logs, or shared files",
+      "explanation": "Use environment variables or a secrets manager and rotate exposed credentials."
+    },
+    {
+      "id": 92,
+      "topic": "Security",
+      "difficulty": "Hard",
+      "question": "What is SQL injection?",
+      "options": [
+        "A type annotation",
+        "An attack that alters a query through untrusted input",
+        "A Python sorting method",
+        "A file compression format"
+      ],
+      "answer": "An attack that alters a query through untrusted input",
+      "explanation": "Parameterized queries keep data separate from SQL syntax."
+    },
+    {
+      "id": 93,
+      "topic": "Web",
+      "difficulty": "Medium",
+      "question": "What does Flask provide?",
+      "options": [
+        "A lightweight Python web framework",
+        "A relational database engine",
+        "A desktop operating system",
+        "A spreadsheet editor"
+      ],
+      "answer": "A lightweight Python web framework",
+      "explanation": "Flask provides routing and request/response foundations for web apps."
+    },
+    {
+      "id": 94,
+      "topic": "Web",
+      "difficulty": "Medium",
+      "question": "What is an HTTP GET request generally used for?",
+      "options": [
+        "Deleting a resource",
+        "Submitting a password for storage only",
+        "Restarting a server",
+        "Retrieving a resource"
+      ],
+      "answer": "Retrieving a resource",
+      "explanation": "GET is intended to retrieve a representation and should be safe."
+    },
+    {
+      "id": 95,
+      "topic": "Web",
+      "difficulty": "Medium",
+      "question": "What is an HTTP POST request commonly used for?",
+      "options": [
+        "Resolving DNS",
+        "Encrypting a disk",
+        "Submitting data for processing or creating a resource",
+        "Retrieving only static pages"
+      ],
+      "answer": "Submitting data for processing or creating a resource",
+      "explanation": "POST sends data to the server for processing."
+    },
+    {
+      "id": 96,
+      "topic": "Data",
+      "difficulty": "Medium",
+      "question": "What is pandas commonly used for?",
+      "options": [
+        "Managing CPU registers",
+        "Working with tabular and labeled data",
+        "Building operating systems",
+        "Rendering 3D games only"
+      ],
+      "answer": "Working with tabular and labeled data",
+      "explanation": "pandas provides Series and DataFrame data structures."
+    },
+    {
+      "id": 97,
+      "topic": "Data",
+      "difficulty": "Medium",
+      "question": "What is NumPy's main array object?",
+      "options": [
+        "ndarray",
+        "DataFrame",
+        "Series",
+        "TensorFlow"
+      ],
+      "answer": "ndarray",
+      "explanation": "ndarray is NumPy's multidimensional array structure."
+    },
+    {
+      "id": 98,
+      "topic": "Database",
+      "difficulty": "Medium",
+      "question": "What does SQL SELECT do?",
+      "options": [
+        "Deletes a table",
+        "Creates a Python class",
+        "Starts a thread",
+        "Retrieves data from a database"
+      ],
+      "answer": "Retrieves data from a database",
+      "explanation": "SELECT queries rows and columns from tables or query expressions."
+    },
+    {
+      "id": 99,
+      "topic": "Database",
+      "difficulty": "Medium",
+      "question": "What is a primary key?",
+      "options": [
+        "A duplicate index",
+        "A password for the database",
+        "A column or set of columns that uniquely identifies each row",
+        "A column that always stores text"
+      ],
+      "answer": "A column or set of columns that uniquely identifies each row",
+      "explanation": "Primary-key values must be unique and not null."
+    },
+    {
+      "id": 100,
+      "topic": "Database",
+      "difficulty": "Hard",
+      "question": "What is a database transaction expected to provide under ACID?",
+      "options": [
+        "Authentication, Compression, Integration, Delivery",
+        "Atomicity, Consistency, Isolation, Durability",
+        "Availability, Caching, Indexing, Deletion",
+        "Arrays, Classes, Iterators, Decorators"
+      ],
+      "answer": "Atomicity, Consistency, Isolation, Durability",
+      "explanation": "ACID describes key transaction properties."
+    },
+    {
+      "id": 101,
+      "topic": "Python Internals",
+      "difficulty": "Hard",
+      "question": "What is reference counting used for in CPython?",
+      "options": [
+        "Tracking references to objects to help manage memory",
+        "Counting source-code lines",
+        "Measuring network packets",
+        "Counting class methods"
+      ],
+      "answer": "Tracking references to objects to help manage memory",
+      "explanation": "CPython primarily uses reference counts plus cyclic garbage collection."
+    },
+    {
+      "id": 102,
+      "topic": "Python Internals",
+      "difficulty": "Hard",
+      "question": "What does the garbage collector help detect?",
+      "options": [
+        "Syntax errors",
+        "Unused imports in every case",
+        "Slow network connections",
+        "Reference cycles that reference counting alone cannot reclaim"
+      ],
+      "answer": "Reference cycles that reference counting alone cannot reclaim",
+      "explanation": "The cyclic garbage collector supplements reference counting."
+    },
+    {
+      "id": 103,
+      "topic": "Python Internals",
+      "difficulty": "Hard",
+      "question": "What is the difference between is and ==?",
+      "options": [
+        "is compares values only",
+        "== checks memory addresses only",
+        "is checks identity; == checks equality",
+        "Both always compare identity"
+      ],
+      "answer": "is checks identity; == checks equality",
+      "explanation": "Two distinct objects can compare equal without being identical."
+    },
+    {
+      "id": 104,
+      "topic": "Python Internals",
+      "difficulty": "Hard",
+      "question": "Why can mutable default arguments be surprising?",
+      "options": [
+        "The function runs only once",
+        "The same default object is reused across calls",
+        "Defaults are copied on every call",
+        "Lists cannot be defaults"
+      ],
+      "answer": "The same default object is reused across calls",
+      "explanation": "Use None as a sentinel and create a new mutable object inside the function."
+    },
+    {
+      "id": 105,
+      "topic": "Python Internals",
+      "difficulty": "Hard",
+      "question": "What does the descriptor protocol involve?",
+      "options": [
+        "Objects implementing methods such as __get__, __set__, or __delete__",
+        "Only iterator methods",
+        "Only context manager methods",
+        "Only arithmetic operators"
+      ],
+      "answer": "Objects implementing methods such as __get__, __set__, or __delete__",
+      "explanation": "Descriptors customize attribute access and power properties and methods."
+    },
+    {
+      "id": 106,
+      "topic": "Python Internals",
+      "difficulty": "Hard",
+      "question": "What does __slots__ commonly do?",
+      "options": [
+        "Makes a class abstract",
+        "Enables multiprocessing",
+        "Sorts object attributes",
+        "Restricts instance attributes and can reduce per-instance memory overhead"
+      ],
+      "answer": "Restricts instance attributes and can reduce per-instance memory overhead",
+      "explanation": "__slots__ declares a fixed set of instance attributes, with inheritance caveats."
+    },
+    {
+      "id": 107,
+      "topic": "Python Internals",
+      "difficulty": "Hard",
+      "question": "What is monkey patching?",
+      "options": [
+        "Running a linter",
+        "Creating a virtual environment",
+        "Changing or replacing attributes at runtime",
+        "Compiling Python to C"
+      ],
+      "answer": "Changing or replacing attributes at runtime",
+      "explanation": "Monkey patching modifies behavior dynamically and should be used carefully."
+    },
+    {
+      "id": 108,
+      "topic": "Python Internals",
+      "difficulty": "Hard",
+      "question": "What does pickle do?",
+      "options": [
+        "Runs SQL migrations",
+        "Serializes and deserializes Python objects",
+        "Validates JSON schemas",
+        "Encrypts objects securely"
+      ],
+      "answer": "Serializes and deserializes Python objects",
+      "explanation": "pickle is Python-specific serialization and must not be used with untrusted data."
+    },
+    {
+      "id": 109,
+      "topic": "Algorithms",
+      "difficulty": "Medium",
+      "question": "Which data structure follows FIFO order?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap",
+        "Set"
+      ],
+      "answer": "Queue",
+      "explanation": "A queue removes items in the order they were added."
+    },
+    {
+      "id": 110,
+      "topic": "Algorithms",
+      "difficulty": "Medium",
+      "question": "Which data structure follows LIFO order?",
+      "options": [
+        "Queue",
+        "Graph",
+        "Dictionary",
+        "Stack"
+      ],
+      "answer": "Stack",
+      "explanation": "A stack removes the most recently added item first."
+    },
+    {
+      "id": 111,
+      "topic": "Algorithms",
+      "difficulty": "Medium",
+      "question": "What is binary search's time complexity on a sorted array?",
+      "options": [
+        "O(n²)",
+        "O(1)",
+        "O(log n)",
+        "O(n)"
+      ],
+      "answer": "O(log n)",
+      "explanation": "Binary search halves the remaining search interval each step."
+    },
+    {
+      "id": 112,
+      "topic": "Algorithms",
+      "difficulty": "Medium",
+      "question": "Which sorting algorithm has average O(n log n) time and worst O(n²) time in common implementations?",
+      "options": [
+        "Selection sort",
+        "Quicksort",
+        "Bubble sort",
+        "Insertion sort"
+      ],
+      "answer": "Quicksort",
+      "explanation": "Quicksort is typically O(n log n) average, O(n²) worst case."
+    },
+    {
+      "id": 113,
+      "topic": "Algorithms",
+      "difficulty": "Medium",
+      "question": "What is breadth-first search commonly implemented with?",
+      "options": [
+        "A queue",
+        "A stack only",
+        "A heap only",
+        "A hash function"
+      ],
+      "answer": "A queue",
+      "explanation": "BFS explores nodes level by level using a queue."
+    },
+    {
+      "id": 114,
+      "topic": "Algorithms",
+      "difficulty": "Medium",
+      "question": "What is depth-first search commonly implemented with?",
+      "options": [
+        "A queue only",
+        "A database index",
+        "A tuple only",
+        "A stack or recursion"
+      ],
+      "answer": "A stack or recursion",
+      "explanation": "DFS follows a path deeply before backtracking."
+    },
+    {
+      "id": 115,
+      "topic": "Algorithms",
+      "difficulty": "Hard",
+      "question": "What is memoization?",
+      "options": [
+        "Encrypting return values",
+        "Converting recursion to loops automatically",
+        "Caching results of function calls for repeated inputs",
+        "Randomizing inputs"
+      ],
+      "answer": "Caching results of function calls for repeated inputs",
+      "explanation": "Memoization avoids recomputing results for the same arguments."
+    },
+    {
+      "id": 116,
+      "topic": "Algorithms",
+      "difficulty": "Hard",
+      "question": "What is dynamic programming useful for?",
+      "options": [
+        "Only file permissions",
+        "Problems with overlapping subproblems and optimal substructure",
+        "Only sorting strings",
+        "Only network requests"
+      ],
+      "answer": "Problems with overlapping subproblems and optimal substructure",
+      "explanation": "Dynamic programming stores subproblem results to avoid repeated work."
+    },
+    {
+      "id": 117,
+      "topic": "Algorithms",
+      "difficulty": "Hard",
+      "question": "What is a stable sorting algorithm?",
+      "options": [
+        "One that preserves the relative order of equal-key elements",
+        "One that never uses memory",
+        "One that always runs in O(1)",
+        "One that sorts only integers"
+      ],
+      "answer": "One that preserves the relative order of equal-key elements",
+      "explanation": "Stability matters when sorting records by multiple keys."
+    },
+    {
+      "id": 118,
+      "topic": "Algorithms",
+      "difficulty": "Hard",
+      "question": "What is a hash collision?",
+      "options": [
+        "A syntax error",
+        "A thread deadlock",
+        "A duplicate variable name",
+        "Two different keys map to the same hash value or bucket"
+      ],
+      "answer": "Two different keys map to the same hash value or bucket",
+      "explanation": "Hash tables need collision-resolution strategies."
+    },
+    {
+      "id": 119,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the output of 2 ** 3?",
+      "options": [
+        "9",
+        "5",
+        "8",
+        "6"
+      ],
+      "answer": "8",
+      "explanation": "** is the exponentiation operator."
+    },
+    {
+      "id": 120,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is bool([])?",
+      "options": [
+        "0",
+        "False",
+        "True",
+        "None"
+      ],
+      "answer": "False",
+      "explanation": "Empty containers are falsy."
+    },
+    {
+      "id": 121,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is bool('0')?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "0"
+      ],
+      "answer": "True",
+      "explanation": "A non-empty string is truthy, even if it contains the character zero."
+    },
+    {
+      "id": 122,
+      "topic": "Code Reading",
+      "difficulty": "Medium",
+      "question": "What does list(range(2, 7, 2)) produce?",
+      "options": [
+        "[2, 4, 6, 8]",
+        "[2, 3, 4, 5, 6]",
+        "[4, 6]",
+        "[2, 4, 6]"
+      ],
+      "answer": "[2, 4, 6]",
+      "explanation": "range stop is exclusive and the step is two."
+    },
+    {
+      "id": 123,
+      "topic": "Code Reading",
+      "difficulty": "Medium",
+      "question": "What is the result of 'py' * 3?",
+      "options": [
+        "py py py",
+        "TypeError",
+        "pypypy",
+        "py3"
+      ],
+      "answer": "pypypy",
+      "explanation": "Multiplying a string by an integer repeats it."
+    },
+    {
+      "id": 124,
+      "topic": "Code Reading",
+      "difficulty": "Medium",
+      "question": "What does sorted([3, 1, 2]) return?",
+      "options": [
+        "(1, 2, 3)",
+        "[1, 2, 3]",
+        "[3, 1, 2]",
+        "None"
+      ],
+      "answer": "[1, 2, 3]",
+      "explanation": "sorted returns a new sorted list."
+    },
+    {
+      "id": 125,
+      "topic": "Code Reading",
+      "difficulty": "Medium",
+      "question": "What does [1, 2, 3][1:] return?",
+      "options": [
+        "[2, 3]",
+        "[1, 2]",
+        "[1, 2, 3]",
+        "[3]"
+      ],
+      "answer": "[2, 3]",
+      "explanation": "The slice starts at index 1 and continues to the end."
+    },
+    {
+      "id": 126,
+      "topic": "Code Reading",
+      "difficulty": "Medium",
+      "question": "What is the result of 3 == 3.0?",
+      "options": [
+        "False",
+        "3.0",
+        "TypeError",
+        "True"
+      ],
+      "answer": "True",
+      "explanation": "Numeric equality compares their values; int and float can compare equal."
+    },
+    {
+      "id": 127,
+      "topic": "Code Reading",
+      "difficulty": "Medium",
+      "question": "What does enumerate(['a','b']) produce when converted to a list?",
+      "options": [
+        "[(1, 'a'), (2, 'b')]",
+        "{'a': 0, 'b': 1}",
+        "[(0, 'a'), (1, 'b')]",
+        "['a', 'b']"
+      ],
+      "answer": "[(0, 'a'), (1, 'b')]",
+      "explanation": "enumerate yields index-item pairs, starting at zero by default."
+    },
+    {
+      "id": 128,
+      "topic": "Code Reading",
+      "difficulty": "Medium",
+      "question": "What does zip([1,2], ['a','b']) produce as a list?",
+      "options": [
+        "{'1':'a','2':'b'}",
+        "[(1, 'a'), (2, 'b')]",
+        "[1, 2, 'a', 'b']",
+        "[(1, 2), ('a', 'b')]"
+      ],
+      "answer": "[(1, 'a'), (2, 'b')]",
+      "explanation": "zip pairs corresponding items from its input iterables."
+    },
+    {
+      "id": 129,
+      "topic": "Real World",
+      "difficulty": "Medium",
+      "question": "A function changes a list passed to it. Why can the caller see the change?",
+      "options": [
+        "The function and caller refer to the same mutable list object",
+        "Lists are copied automatically",
+        "Python passes all values by text",
+        "Functions cannot receive lists"
+      ],
+      "answer": "The function and caller refer to the same mutable list object",
+      "explanation": "Passing an object reference allows mutations to be visible through other references."
+    },
+    {
+      "id": 130,
+      "topic": "Real World",
+      "difficulty": "Medium",
+      "question": "An API key was committed to a public repository. What should you do first?",
+      "options": [
+        "Just rename the variable",
+        "Delete the local file only",
+        "Ignore it if no one commented",
+        "Revoke or rotate the exposed key"
+      ],
+      "answer": "Revoke or rotate the exposed key",
+      "explanation": "Assume exposed credentials are compromised; revoke them and inspect usage."
+    },
+    {
+      "id": 131,
+      "topic": "Real World",
+      "difficulty": "Medium",
+      "question": "A script works locally but fails because a package is missing on another machine. What helps reproducibility?",
+      "options": [
+        "Add more print statements",
+        "Use a different variable name",
+        "Provide dependency versions in a requirements file",
+        "Rename the script"
+      ],
+      "answer": "Provide dependency versions in a requirements file",
+      "explanation": "A dependency manifest helps recreate the environment."
+    },
+    {
+      "id": 132,
+      "topic": "Real World",
+      "difficulty": "Medium",
+      "question": "A program must process a very large file without loading it all into memory. What approach is suitable?",
+      "options": [
+        "Convert the file to one huge string",
+        "Read and process it incrementally, line by line",
+        "Call read() for the entire file",
+        "Create many full copies"
+      ],
+      "answer": "Read and process it incrementally, line by line",
+      "explanation": "Streaming input keeps memory usage bounded."
+    },
+    {
+      "id": 133,
+      "topic": "Real World",
+      "difficulty": "Hard",
+      "question": "A web endpoint receives user-supplied SQL values. What is the safest query approach?",
+      "options": [
+        "Use parameterized queries",
+        "Concatenate raw input into SQL",
+        "Remove spaces from input only",
+        "Convert input to uppercase"
+      ],
+      "answer": "Use parameterized queries",
+      "explanation": "Parameters separate query structure from user-provided data."
+    },
+    {
+      "id": 134,
+      "topic": "Real World",
+      "difficulty": "Hard",
+      "question": "A CPU-heavy task does not speed up with Python threads in standard GIL-enabled CPython. What may help?",
+      "options": [
+        "Add more threads without measurement",
+        "Replace integers with strings",
+        "Use time.sleep in the loop",
+        "Use multiprocessing or native code that releases the GIL"
+      ],
+      "answer": "Use multiprocessing or native code that releases the GIL",
+      "explanation": "Separate processes can run Python bytecode on multiple cores."
+    },
+    {
+      "id": 135,
+      "topic": "Real World",
+      "difficulty": "Hard",
+      "question": "A function is difficult to test because it reads global state and writes files directly. What improves testability?",
+      "options": [
+        "Combine it with unrelated functions",
+        "Catch every exception silently",
+        "Pass dependencies as arguments and isolate side effects",
+        "Add more global variables"
+      ],
+      "answer": "Pass dependencies as arguments and isolate side effects",
+      "explanation": "Dependency injection and clear boundaries make behavior easier to test."
+    },
+    {
+      "id": 136,
+      "topic": "Real World",
+      "difficulty": "Hard",
+      "question": "A production service intermittently fails. What is a sound first debugging practice?",
+      "options": [
+        "Delete the failing test",
+        "Collect logs, reproduce the failure, and inspect the traceback",
+        "Change several unrelated lines at once",
+        "Suppress all exceptions"
+      ],
+      "answer": "Collect logs, reproduce the failure, and inspect the traceback",
+      "explanation": "Evidence-driven debugging narrows the cause and makes fixes verifiable."
+    },
+    {
+      "id": 137,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which built-in type stores True or False?",
+      "options": [
+        "bool",
+        "int",
+        "str",
+        "bytes"
+      ],
+      "answer": "bool",
+      "explanation": "bool represents the two truth values True and False."
+    },
+    {
+      "id": 138,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "What does int('42') return?",
+      "options": [
+        "'42'",
+        "42.0",
+        "ValueError",
+        "42"
+      ],
+      "answer": "42",
+      "explanation": "int converts a valid integer string to an integer."
+    },
+    {
+      "id": 139,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "What does float('3.5') return?",
+      "options": [
+        "3",
+        "ValueError",
+        "3.5",
+        "'3.5'"
+      ],
+      "answer": "3.5",
+      "explanation": "float converts a valid numeric string to a floating-point value."
+    },
+    {
+      "id": 140,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which operator means logical AND?",
+      "options": [
+        "all",
+        "and",
+        "&",
+        "&&"
+      ],
+      "answer": "and",
+      "explanation": "and evaluates Boolean logic with short-circuit behavior."
+    },
+    {
+      "id": 141,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which operator means logical OR?",
+      "options": [
+        "or",
+        "|",
+        "||",
+        "any"
+      ],
+      "answer": "or",
+      "explanation": "or returns a truthy operand or the final falsy operand."
+    },
+    {
+      "id": 142,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which operator means logical NOT?",
+      "options": [
+        "!",
+        "~",
+        "none",
+        "not"
+      ],
+      "answer": "not",
+      "explanation": "not negates truthiness."
+    },
+    {
+      "id": 143,
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "question": "Are Python strings mutable?",
+      "options": [
+        "Only strings longer than one",
+        "Only ASCII strings",
+        "No, strings are immutable",
+        "Yes, characters can be assigned"
+      ],
+      "answer": "No, strings are immutable",
+      "explanation": "String operations create new strings rather than changing existing ones."
+    },
+    {
+      "id": 144,
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "question": "What does 'banana'.count('a') return?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": "3",
+      "explanation": "count returns the number of non-overlapping occurrences."
+    },
+    {
+      "id": 145,
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "question": "What does 'hello'.find('l') return?",
+      "options": [
+        "2",
+        "3",
+        "-1",
+        "1"
+      ],
+      "answer": "2",
+      "explanation": "find returns the first matching index, or -1 if absent."
+    },
+    {
+      "id": 146,
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "question": "What does 'a,b,c'.split(',') return?",
+      "options": [
+        "'a b c'",
+        "('a','b','c')",
+        "['a,b,c']",
+        "['a', 'b', 'c']"
+      ],
+      "answer": "['a', 'b', 'c']",
+      "explanation": "split uses the comma delimiter and returns a list."
+    },
+    {
+      "id": 147,
+      "topic": "Collections",
+      "difficulty": "Medium",
+      "question": "What does list.pop() do by default?",
+      "options": [
+        "Removes every item",
+        "Sorts the list",
+        "Removes and returns the last item",
+        "Returns the first item without removing it"
+      ],
+      "answer": "Removes and returns the last item",
+      "explanation": "pop() without an index operates on the final element."
+    },
+    {
+      "id": 148,
+      "topic": "Collections",
+      "difficulty": "Medium",
+      "question": "What does dict.get('x', 0) return if x is absent?",
+      "options": [
+        "'x'",
+        "0",
+        "None always",
+        "KeyError"
+      ],
+      "answer": "0",
+      "explanation": "get returns the supplied default when the key is missing."
+    },
+    {
+      "id": 149,
+      "topic": "Collections",
+      "difficulty": "Medium",
+      "question": "What is the result of tuple([1, 2])?",
+      "options": [
+        "(1, 2)",
+        "[1, 2]",
+        "{1, 2}",
+        "'1,2'"
+      ],
+      "answer": "(1, 2)",
+      "explanation": "tuple converts an iterable into a tuple."
+    },
+    {
+      "id": 150,
+      "topic": "Collections",
+      "difficulty": "Medium",
+      "question": "What does the set union operator | do?",
+      "options": [
+        "Keeps only common elements",
+        "Removes all elements",
+        "Sorts both sets",
+        "Combines unique elements from both sets"
+      ],
+      "answer": "Combines unique elements from both sets",
+      "explanation": "Set union contains elements present in either set."
+    },
+    {
+      "id": 151,
+      "topic": "Collections",
+      "difficulty": "Medium",
+      "question": "What does the set intersection operator & do?",
+      "options": [
+        "Reverses a set",
+        "Creates a dictionary",
+        "Keeps elements common to both sets",
+        "Combines all elements"
+      ],
+      "answer": "Keeps elements common to both sets",
+      "explanation": "Intersection returns elements present in both sets."
+    },
+    {
+      "id": 152,
+      "topic": "Control Flow",
+      "difficulty": "Easy",
+      "question": "What is the output of range(3) when converted to a list?",
+      "options": [
+        "[3]",
+        "[0, 1, 2]",
+        "[1, 2, 3]",
+        "[0, 1, 2, 3]"
+      ],
+      "answer": "[0, 1, 2]",
+      "explanation": "range(3) starts at zero and stops before three."
+    },
+    {
+      "id": 153,
+      "topic": "Control Flow",
+      "difficulty": "Medium",
+      "question": "What does pass do?",
+      "options": [
+        "Acts as a placeholder statement with no operation",
+        "Exits a loop",
+        "Skips an iteration",
+        "Returns None from the whole program"
+      ],
+      "answer": "Acts as a placeholder statement with no operation",
+      "explanation": "pass is syntactically valid and performs no action."
+    },
+    {
+      "id": 154,
+      "topic": "Control Flow",
+      "difficulty": "Medium",
+      "question": "What is the purpose of elif?",
+      "options": [
+        "Defines a loop",
+        "Handles an exception",
+        "Creates a function",
+        "Checks another condition if earlier conditions were false"
+      ],
+      "answer": "Checks another condition if earlier conditions were false",
+      "explanation": "elif allows multiple conditional branches."
+    },
+    {
+      "id": 155,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "What is recursion?",
+      "options": [
+        "A loop over a list only",
+        "A class inheriting itself",
+        "A function calling itself directly or indirectly",
+        "A function with no parameters"
+      ],
+      "answer": "A function calling itself directly or indirectly",
+      "explanation": "Recursive functions need a base case to stop."
+    },
+    {
+      "id": 156,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "What is a docstring?",
+      "options": [
+        "A package lock file",
+        "A string literal used to document a module, class, or function",
+        "A comment required on every line",
+        "A type alias"
+      ],
+      "answer": "A string literal used to document a module, class, or function",
+      "explanation": "Docstrings are commonly the first statement in a documented definition."
+    },
+    {
+      "id": 157,
+      "topic": "Functions",
+      "difficulty": "Hard",
+      "question": "What is a closure?",
+      "options": [
+        "A function that retains access to variables from its enclosing scope",
+        "A function that always returns None",
+        "A closed file handle",
+        "A class without methods"
+      ],
+      "answer": "A function that retains access to variables from its enclosing scope",
+      "explanation": "Closures preserve references to free variables from an enclosing scope."
+    },
+    {
+      "id": 158,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "What is polymorphism?",
+      "options": [
+        "Making every object identical",
+        "Preventing inheritance",
+        "Storing only numbers",
+        "Using a common interface for objects with different implementations"
+      ],
+      "answer": "Using a common interface for objects with different implementations",
+      "explanation": "Polymorphism lets callers use objects through shared behavior."
+    },
+    {
+      "id": 159,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "What does super() commonly provide?",
+      "options": [
+        "A global variable",
+        "A module importer",
+        "A proxy for calling methods in the method resolution order",
+        "A new superclass object"
+      ],
+      "answer": "A proxy for calling methods in the method resolution order",
+      "explanation": "super() supports cooperative method calls across inheritance."
+    },
+    {
+      "id": 160,
+      "topic": "OOP",
+      "difficulty": "Hard",
+      "question": "What is method resolution order (MRO)?",
+      "options": [
+        "The order arguments are evaluated",
+        "The order Python searches classes for an attribute or method",
+        "The order files are imported alphabetically",
+        "The order objects are garbage-collected"
+      ],
+      "answer": "The order Python searches classes for an attribute or method",
+      "explanation": "Python uses C3 linearization for class MRO."
+    },
+    {
+      "id": 161,
+      "topic": "OOP",
+      "difficulty": "Hard",
+      "question": "What is an abstract base class used for?",
+      "options": [
+        "Defining an interface or shared base with abstract methods",
+        "Storing only constants",
+        "Automatically generating a database",
+        "Replacing all instances"
+      ],
+      "answer": "Defining an interface or shared base with abstract methods",
+      "explanation": "The abc module supports abstract classes and methods."
+    },
+    {
+      "id": 162,
+      "topic": "Exceptions",
+      "difficulty": "Medium",
+      "question": "What is the purpose of an else clause on try?",
+      "options": [
+        "It runs only after finally",
+        "It catches every exception",
+        "It always runs before try",
+        "It runs when the try block completes without an exception"
+      ],
+      "answer": "It runs when the try block completes without an exception",
+      "explanation": "try-else separates success-path code from the protected block."
+    },
+    {
+      "id": 163,
+      "topic": "Exceptions",
+      "difficulty": "Hard",
+      "question": "Why should broad except clauses be used carefully?",
+      "options": [
+        "They disable garbage collection",
+        "They prevent all crashes",
+        "They can hide unexpected errors and make debugging harder",
+        "They always improve performance"
+      ],
+      "answer": "They can hide unexpected errors and make debugging harder",
+      "explanation": "Catch specific exceptions when possible and handle them intentionally."
+    },
+    {
+      "id": 164,
+      "topic": "Files",
+      "difficulty": "Medium",
+      "question": "What does mode 'a' do when opening a file?",
+      "options": [
+        "Creates a directory",
+        "Appends writes to the end of the file",
+        "Truncates the file immediately",
+        "Opens read-only"
+      ],
+      "answer": "Appends writes to the end of the file",
+      "explanation": "Append mode writes at the end and creates the file if needed."
+    },
+    {
+      "id": 165,
+      "topic": "Files",
+      "difficulty": "Medium",
+      "question": "What does mode 'w' do to an existing file?",
+      "options": [
+        "Truncates it before writing",
+        "Appends without changing existing content",
+        "Opens it read-only",
+        "Raises an error in every case"
+      ],
+      "answer": "Truncates it before writing",
+      "explanation": "Write mode creates or truncates the target file."
+    },
+    {
+      "id": 166,
+      "topic": "Modules",
+      "difficulty": "Medium",
+      "question": "What is a package commonly used for?",
+      "options": [
+        "Storing one variable only",
+        "Replacing the Python interpreter",
+        "Running a single SQL query",
+        "Organizing related modules under a namespace"
+      ],
+      "answer": "Organizing related modules under a namespace",
+      "explanation": "Packages group modules and may contain subpackages."
+    },
+    {
+      "id": 167,
+      "topic": "Modules",
+      "difficulty": "Hard",
+      "question": "What is a circular import?",
+      "options": [
+        "Importing a standard library module",
+        "Using an alias in import",
+        "Two or more modules depend on importing each other",
+        "Importing the same module twice from cache"
+      ],
+      "answer": "Two or more modules depend on importing each other",
+      "explanation": "Circular dependencies can expose partially initialized modules."
+    },
+    {
+      "id": 168,
+      "topic": "Iterators",
+      "difficulty": "Medium",
+      "question": "Which two methods form the core iterator protocol?",
+      "options": [
+        "__len__ and __getitem__",
+        "__iter__ and __next__",
+        "__get__ and __set__",
+        "__enter__ and __exit__"
+      ],
+      "answer": "__iter__ and __next__",
+      "explanation": "An iterator returns itself from __iter__ and advances with __next__."
+    },
+    {
+      "id": 169,
+      "topic": "Generators",
+      "difficulty": "Medium",
+      "question": "What does yield from do?",
+      "options": [
+        "Delegates iteration to a sub-iterator",
+        "Imports a module",
+        "Starts a thread",
+        "Returns a dictionary"
+      ],
+      "answer": "Delegates iteration to a sub-iterator",
+      "explanation": "yield from forwards values from another iterable or generator."
+    },
+    {
+      "id": 170,
+      "topic": "Decorators",
+      "difficulty": "Hard",
+      "question": "Why use functools.lru_cache?",
+      "options": [
+        "To encrypt function arguments",
+        "To parallelize every call",
+        "To convert a function into a class",
+        "To cache results of calls based on arguments"
+      ],
+      "answer": "To cache results of calls based on arguments",
+      "explanation": "lru_cache provides a bounded least-recently-used cache."
+    },
+    {
+      "id": 171,
+      "topic": "Testing",
+      "difficulty": "Medium",
+      "question": "What is a regression test?",
+      "options": [
+        "A test that deletes old code",
+        "A test run only before writing code",
+        "A test that checks previously fixed behavior stays correct",
+        "A test that only measures speed"
+      ],
+      "answer": "A test that checks previously fixed behavior stays correct",
+      "explanation": "Regression tests guard against reintroducing known defects."
+    },
+    {
+      "id": 172,
+      "topic": "Testing",
+      "difficulty": "Hard",
+      "question": "What is mocking in unit tests?",
+      "options": [
+        "Changing Python syntax",
+        "Replacing a dependency with a controlled test double",
+        "Copying production data to a public site",
+        "Running tests without assertions"
+      ],
+      "answer": "Replacing a dependency with a controlled test double",
+      "explanation": "Mocks isolate a unit from external services or expensive dependencies."
+    },
+    {
+      "id": 173,
+      "topic": "Performance",
+      "difficulty": "Hard",
+      "question": "What is profiling used for?",
+      "options": [
+        "Measuring where a program spends time or resources",
+        "Proving code has no bugs",
+        "Encrypting runtime memory",
+        "Checking only formatting"
+      ],
+      "answer": "Measuring where a program spends time or resources",
+      "explanation": "Profiling identifies bottlenecks before optimization."
+    },
+    {
+      "id": 174,
+      "topic": "Concurrency",
+      "difficulty": "Hard",
+      "question": "What is a race condition?",
+      "options": [
+        "A syntax error in a loop",
+        "A sorting algorithm",
+        "A missing Python package",
+        "Behavior depends on the timing of concurrent operations"
+      ],
+      "answer": "Behavior depends on the timing of concurrent operations",
+      "explanation": "Shared mutable state can cause race conditions without synchronization."
+    },
+    {
+      "id": 175,
+      "topic": "Concurrency",
+      "difficulty": "Hard",
+      "question": "What is a deadlock?",
+      "options": [
+        "A handled exception",
+        "A completed transaction",
+        "Tasks wait indefinitely for resources held by one another",
+        "A fast function return"
+      ],
+      "answer": "Tasks wait indefinitely for resources held by one another",
+      "explanation": "Consistent lock ordering and timeouts can help prevent deadlocks."
+    },
+    {
+      "id": 176,
+      "topic": "Async",
+      "difficulty": "Hard",
+      "question": "What is an event loop responsible for?",
+      "options": [
+        "Creating class inheritance",
+        "Scheduling and running asynchronous tasks",
+        "Compiling Python files",
+        "Managing SQL schemas"
+      ],
+      "answer": "Scheduling and running asynchronous tasks",
+      "explanation": "An event loop coordinates coroutines and I/O readiness."
+    },
+    {
+      "id": 177,
+      "topic": "Security",
+      "difficulty": "Hard",
+      "question": "Why is eval() risky with untrusted input?",
+      "options": [
+        "It can execute arbitrary Python expressions",
+        "It only parses JSON",
+        "It automatically sanitizes input",
+        "It cannot access built-ins"
+      ],
+      "answer": "It can execute arbitrary Python expressions",
+      "explanation": "Never evaluate untrusted input as Python code."
+    },
+    {
+      "id": 178,
+      "topic": "Security",
+      "difficulty": "Medium",
+      "question": "What does hashing generally provide for passwords when used correctly?",
+      "options": [
+        "Reversible encryption with a shared key",
+        "Plain-text storage",
+        "A compression format",
+        "A one-way representation using a password-hashing scheme"
+      ],
+      "answer": "A one-way representation using a password-hashing scheme",
+      "explanation": "Passwords should use slow, salted password-hashing algorithms such as Argon2 or bcrypt."
+    },
+    {
+      "id": 179,
+      "topic": "Web",
+      "difficulty": "Medium",
+      "question": "What is a Flask route?",
+      "options": [
+        "A Python virtual environment",
+        "A CSS selector",
+        "A URL rule mapped to a view function",
+        "A SQL table"
+      ],
+      "answer": "A URL rule mapped to a view function",
+      "explanation": "Route decorators associate URLs with application functions."
+    },
+    {
+      "id": 180,
+      "topic": "Web",
+      "difficulty": "Hard",
+      "question": "Why should production Flask apps use a production WSGI server?",
+      "options": [
+        "It stores passwords automatically",
+        "The development server is not designed for production deployment",
+        "It changes Python into JavaScript",
+        "It removes the need for security"
+      ],
+      "answer": "The development server is not designed for production deployment",
+      "explanation": "Use a production server such as Gunicorn or Waitress as appropriate."
+    },
+    {
+      "id": 181,
+      "topic": "Database",
+      "difficulty": "Medium",
+      "question": "What does SQL INSERT do?",
+      "options": [
+        "Adds rows to a table",
+        "Changes a table name",
+        "Retrieves rows only",
+        "Deletes a database"
+      ],
+      "answer": "Adds rows to a table",
+      "explanation": "INSERT creates new table records."
+    },
+    {
+      "id": 182,
+      "topic": "Database",
+      "difficulty": "Medium",
+      "question": "What does SQL UPDATE do?",
+      "options": [
+        "Creates a new database",
+        "Lists table columns only",
+        "Removes a table",
+        "Modifies existing rows"
+      ],
+      "answer": "Modifies existing rows",
+      "explanation": "UPDATE changes column values for rows matching its condition."
+    },
+    {
+      "id": 183,
+      "topic": "Database",
+      "difficulty": "Medium",
+      "question": "What does SQL DELETE do?",
+      "options": [
+        "Creates an index",
+        "Exports a CSV",
+        "Removes rows from a table",
+        "Deletes a Python variable"
+      ],
+      "answer": "Removes rows from a table",
+      "explanation": "DELETE removes matching rows; use WHERE carefully."
+    },
+    {
+      "id": 184,
+      "topic": "Algorithms",
+      "difficulty": "Hard",
+      "question": "What is a graph?",
+      "options": [
+        "A file format",
+        "A set of vertices connected by edges",
+        "A sorted array only",
+        "A function decorator"
+      ],
+      "answer": "A set of vertices connected by edges",
+      "explanation": "Graphs model relationships and networks."
+    },
+    {
+      "id": 185,
+      "topic": "Algorithms",
+      "difficulty": "Hard",
+      "question": "What is a linked list node commonly composed of?",
+      "options": [
+        "A value and a reference to another node",
+        "Only an array index",
+        "A SQL query and cursor",
+        "A function and decorator"
+      ],
+      "answer": "A value and a reference to another node",
+      "explanation": "A singly linked list node stores data and a next reference."
+    },
+    {
+      "id": 186,
+      "topic": "Algorithms",
+      "difficulty": "Medium",
+      "question": "What is the time complexity of scanning a list for an item in the worst case?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n log n)",
+        "O(n)"
+      ],
+      "answer": "O(n)",
+      "explanation": "A linear search may inspect every element."
+    },
+    {
+      "id": 187,
+      "topic": "Code Reading",
+      "difficulty": "Medium",
+      "question": "What is the output of bool(0)?",
+      "options": [
+        "None",
+        "'False'",
+        "False",
+        "True"
+      ],
+      "answer": "False",
+      "explanation": "Numeric zero is falsy."
+    },
+    {
+      "id": 188,
+      "topic": "Code Reading",
+      "difficulty": "Medium",
+      "question": "What is the output of bool(' ')?",
+      "options": [
+        "ValueError",
+        "True",
+        "False",
+        "None"
+      ],
+      "answer": "True",
+      "explanation": "A string containing a space is non-empty and therefore truthy."
+    },
+    {
+      "id": 189,
+      "topic": "Code Reading",
+      "difficulty": "Medium",
+      "question": "What does any([False, True, False]) return?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "TypeError"
+      ],
+      "answer": "True",
+      "explanation": "any returns True when at least one element is truthy."
+    },
+    {
+      "id": 190,
+      "topic": "Code Reading",
+      "difficulty": "Medium",
+      "question": "What does all([True, True, False]) return?",
+      "options": [
+        "True",
+        "None",
+        "TypeError",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "all returns True only if every element is truthy."
+    },
+    {
+      "id": 191,
+      "topic": "Real World",
+      "difficulty": "Hard",
+      "question": "A batch job sometimes processes the same payment twice. What design helps prevent duplicate effects?",
+      "options": [
+        "Ignore request identifiers",
+        "Store amounts only in logs",
+        "Use idempotency keys or unique transaction constraints",
+        "Retry forever without tracking"
+      ],
+      "answer": "Use idempotency keys or unique transaction constraints",
+      "explanation": "Idempotency makes repeated requests safe to process."
+    },
+    {
+      "id": 192,
+      "topic": "Real World",
+      "difficulty": "Medium",
+      "question": "A function needs to support many input shapes. What should you do first?",
+      "options": [
+        "Use global state for every input",
+        "Define and validate a clear input contract",
+        "Accept everything silently",
+        "Catch BaseException and continue"
+      ],
+      "answer": "Define and validate a clear input contract",
+      "explanation": "Explicit contracts make behavior predictable and testable."
+    },
+    {
+      "id": 193,
+      "topic": "Real World",
+      "difficulty": "Hard",
+      "question": "A slow endpoint calls three independent external services. What may reduce total wait time?",
+      "options": [
+        "Run independent I/O operations concurrently with suitable async or threading tools",
+        "Call them sequentially more slowly",
+        "Add arbitrary sleeps",
+        "Convert responses to strings first"
+      ],
+      "answer": "Run independent I/O operations concurrently with suitable async or threading tools",
+      "explanation": "Concurrent I/O can overlap waiting time when dependencies are independent."
+    },
+    {
+      "id": 194,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "A learner enters 25 using input(). What type is returned before conversion?",
+      "options": [
+        "int",
+        "float",
+        "bool",
+        "str"
+      ],
+      "answer": "str",
+      "explanation": "input() returns text; convert it with int() when an integer is needed."
+    },
+    {
+      "id": 195,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "You need a value that should not be reassigned by convention as a constant. Which naming style is commonly used?",
+      "options": [
+        "PascalCase",
+        "kebab-case",
+        "UPPER_SNAKE_CASE",
+        "camelCase"
+      ],
+      "answer": "UPPER_SNAKE_CASE",
+      "explanation": "Python convention uses uppercase names with underscores for constants."
+    },
+    {
+      "id": 196,
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "question": "You need to combine list parts ['red','blue'] with a comma. Which expression is suitable?",
+      "options": [
+        "str.join(',', 'red', 'blue')",
+        "','.join(['red', 'blue'])",
+        "['red','blue'].split(',')",
+        "','.append(['red','blue'])"
+      ],
+      "answer": "','.join(['red', 'blue'])",
+      "explanation": "join is called on the separator string and accepts an iterable of strings."
+    },
+    {
+      "id": 197,
+      "topic": "Collections",
+      "difficulty": "Medium",
+      "question": "You need unique email addresses while ignoring duplicates. Which built-in type is a natural fit?",
+      "options": [
+        "set",
+        "list",
+        "tuple",
+        "str"
+      ],
+      "answer": "set",
+      "explanation": "A set stores unique hashable elements."
+    },
+    {
+      "id": 198,
+      "topic": "Collections",
+      "difficulty": "Medium",
+      "question": "You need insertion order and fast lookup by a person's ID. Which structure fits best?",
+      "options": [
+        "tuple",
+        "set",
+        "range",
+        "dict"
+      ],
+      "answer": "dict",
+      "explanation": "A dictionary maps keys to values and preserves insertion order in modern Python."
+    },
+    {
+      "id": 199,
+      "topic": "Control Flow",
+      "difficulty": "Medium",
+      "question": "A loop should stop when a password matches. Which statement should be used?",
+      "options": [
+        "pass",
+        "global",
+        "break",
+        "continue"
+      ],
+      "answer": "break",
+      "explanation": "break exits the nearest loop immediately."
+    },
+    {
+      "id": 200,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "A function should accept any number of positional scores. Which parameter syntax fits?",
+      "options": [
+        "scores...",
+        "*scores",
+        "**scores",
+        "&scores"
+      ],
+      "answer": "*scores",
+      "explanation": "*args-style parameters collect extra positional arguments."
+    },
+    {
+      "id": 201,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "A function should accept named options such as color='blue'. Which parameter syntax fits?",
+      "options": [
+        "**options",
+        "*options",
+        "&options",
+        "options..."
+      ],
+      "answer": "**options",
+      "explanation": "**kwargs-style parameters collect extra keyword arguments."
+    },
+    {
+      "id": 202,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "A Student class needs to initialize name and roll_number. Where should initialization code go?",
+      "options": [
+        "__iter__()",
+        "__str__()",
+        "__del__()",
+        "__init__()"
+      ],
+      "answer": "__init__()",
+      "explanation": "__init__ is the usual instance initializer."
+    },
+    {
+      "id": 203,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "Two classes expose a common draw() method but implement it differently. Which OOP idea is illustrated?",
+      "options": [
+        "Serialization",
+        "Recursion",
+        "Polymorphism",
+        "Encapsulation only"
+      ],
+      "answer": "Polymorphism",
+      "explanation": "Different object types can respond to the same interface."
+    },
+    {
+      "id": 204,
+      "topic": "Exceptions",
+      "difficulty": "Medium",
+      "question": "A file may not exist. Which exception is most specific to catch for a missing path?",
+      "options": [
+        "ImportError",
+        "FileNotFoundError",
+        "SyntaxError",
+        "ZeroDivisionError"
+      ],
+      "answer": "FileNotFoundError",
+      "explanation": "FileNotFoundError identifies a path lookup that failed because the file was absent."
+    },
+    {
+      "id": 205,
+      "topic": "Files",
+      "difficulty": "Medium",
+      "question": "You want to add a log entry without deleting old entries. Which file mode should you use?",
+      "options": [
+        "a",
+        "w",
+        "r",
+        "x"
+      ],
+      "answer": "a",
+      "explanation": "Append mode preserves existing content and writes at the end."
+    },
+    {
+      "id": 206,
+      "topic": "Testing",
+      "difficulty": "Medium",
+      "question": "A test should verify that division by zero raises ZeroDivisionError. Which unittest assertion is appropriate?",
+      "options": [
+        "assertEqual",
+        "assertIn",
+        "assertTrue",
+        "assertRaises"
+      ],
+      "answer": "assertRaises",
+      "explanation": "assertRaises checks that a specific exception is raised."
+    },
+    {
+      "id": 207,
+      "topic": "Debugging",
+      "difficulty": "Medium",
+      "question": "A variable unexpectedly becomes None. What is a useful first check?",
+      "options": [
+        "Rename all variables",
+        "Disable exceptions",
+        "Inspect every path where the function can return or omit a return",
+        "Reinstall the operating system"
+      ],
+      "answer": "Inspect every path where the function can return or omit a return",
+      "explanation": "A function without a return value returns None."
+    },
+    {
+      "id": 208,
+      "topic": "Performance",
+      "difficulty": "Hard",
+      "question": "A loop repeatedly checks membership in a large collection. Which change may improve average lookup time?",
+      "options": [
+        "Sort after every lookup",
+        "Use a set for membership tests",
+        "Convert the set to a list",
+        "Use nested loops"
+      ],
+      "answer": "Use a set for membership tests",
+      "explanation": "Set membership is average-case O(1), compared with O(n) list scanning."
+    },
+    {
+      "id": 209,
+      "topic": "Concurrency",
+      "difficulty": "Hard",
+      "question": "Two threads update the same shared counter. What can protect the critical section?",
+      "options": [
+        "threading.Lock",
+        "random.Random",
+        "json.JSONDecoder",
+        "pathlib.Path"
+      ],
+      "answer": "threading.Lock",
+      "explanation": "A lock can ensure only one thread updates shared state at a time."
+    },
+    {
+      "id": 210,
+      "topic": "Async",
+      "difficulty": "Hard",
+      "question": "An async function calls time.sleep(5). What is the concern?",
+      "options": [
+        "It yields control cooperatively",
+        "It creates a new coroutine",
+        "It automatically parallelizes work",
+        "It blocks the event-loop thread"
+      ],
+      "answer": "It blocks the event-loop thread",
+      "explanation": "Use asyncio.sleep in async code to yield control while waiting."
+    },
+    {
+      "id": 211,
+      "topic": "Security",
+      "difficulty": "Hard",
+      "question": "A user submits a filename such as ../../secret.txt. What should the app do?",
+      "options": [
+        "Run it through eval()",
+        "Remove only the dots",
+        "Validate and constrain paths to an allowed directory",
+        "Trust the path because it is text"
+      ],
+      "answer": "Validate and constrain paths to an allowed directory",
+      "explanation": "Path traversal defenses require resolving and checking paths against an allowed root."
+    },
+    {
+      "id": 212,
+      "topic": "Database",
+      "difficulty": "Hard",
+      "question": "A report repeatedly filters rows by customer_id. What database feature may help?",
+      "options": [
+        "A random database name",
+        "An index on customer_id",
+        "A Python decorator",
+        "A larger CSS file"
+      ],
+      "answer": "An index on customer_id",
+      "explanation": "An appropriate index can speed up selective lookups, with write/storage trade-offs."
+    },
+    {
+      "id": 213,
+      "topic": "Web",
+      "difficulty": "Medium",
+      "question": "A Flask form submits data and then refreshes the page. Which pattern helps avoid resubmitting on refresh?",
+      "options": [
+        "Post/Redirect/Get",
+        "GET/GET/GET",
+        "Import/Export/Run",
+        "Fork/Join/Wait"
+      ],
+      "answer": "Post/Redirect/Get",
+      "explanation": "Redirect after a successful POST so a refresh repeats the GET, not the submission."
+    },
+    {
+      "id": 214,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which built-in converts a value to text?",
+      "options": [
+        "int",
+        "float",
+        "bool",
+        "str"
+      ],
+      "answer": "str",
+      "explanation": "str() returns a string representation of an object."
+    },
+    {
+      "id": 215,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which built-in gives the largest item in an iterable?",
+      "options": [
+        "sum()",
+        "len()",
+        "max()",
+        "min()"
+      ],
+      "answer": "max()",
+      "explanation": "max() returns the largest item according to ordering."
+    },
+    {
+      "id": 216,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which built-in gives the smallest item in an iterable?",
+      "options": [
+        "sorted()",
+        "min()",
+        "max()",
+        "sum()"
+      ],
+      "answer": "min()",
+      "explanation": "min() returns the smallest item."
+    },
+    {
+      "id": 217,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which built-in totals numeric items?",
+      "options": [
+        "sum()",
+        "len()",
+        "max()",
+        "round()"
+      ],
+      "answer": "sum()",
+      "explanation": "sum() adds items from an iterable."
+    },
+    {
+      "id": 218,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which built-in rounds a number?",
+      "options": [
+        "format()",
+        "int()",
+        "abs()",
+        "round()"
+      ],
+      "answer": "round()",
+      "explanation": "round() rounds a number to a chosen precision."
+    },
+    {
+      "id": 219,
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "question": "Which method checks whether a string begins with a prefix?",
+      "options": [
+        "contains()",
+        "prefix()",
+        "startswith()",
+        "endswith()"
+      ],
+      "answer": "startswith()",
+      "explanation": "startswith checks a prefix and returns a Boolean."
+    },
+    {
+      "id": 220,
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "question": "Which method checks whether a string ends with a suffix?",
+      "options": [
+        "find_end()",
+        "endswith()",
+        "startswith()",
+        "suffix()"
+      ],
+      "answer": "endswith()",
+      "explanation": "endswith checks a suffix and returns a Boolean."
+    },
+    {
+      "id": 221,
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "question": "Which method replaces occurrences in a string?",
+      "options": [
+        "replace()",
+        "change()",
+        "swap()",
+        "update()"
+      ],
+      "answer": "replace()",
+      "explanation": "replace returns a new string with matching parts replaced."
+    },
+    {
+      "id": 222,
+      "topic": "Collections",
+      "difficulty": "Medium",
+      "question": "Which list method sorts the list in place?",
+      "options": [
+        "sorted()",
+        "order()",
+        "arrange()",
+        "sort()"
+      ],
+      "answer": "sort()",
+      "explanation": "list.sort mutates the list and returns None."
+    },
+    {
+      "id": 223,
+      "topic": "Collections",
+      "difficulty": "Medium",
+      "question": "Which built-in returns a new sorted list?",
+      "options": [
+        "order()",
+        "list.sort()",
+        "sorted()",
+        "sort()"
+      ],
+      "answer": "sorted()",
+      "explanation": "sorted accepts any iterable and returns a new list."
+    },
+    {
+      "id": 224,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "What does positional-only parameter syntax use before the parameters?",
+      "options": [
+        "&",
+        "/",
+        "*",
+        "**"
+      ],
+      "answer": "/",
+      "explanation": "A slash marks preceding parameters as positional-only."
+    },
+    {
+      "id": 225,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "What symbol separates positional parameters from keyword-only parameters in a function signature?",
+      "options": [
+        "*",
+        "/",
+        "&",
+        "%"
+      ],
+      "answer": "*",
+      "explanation": "A bare * marks following parameters as keyword-only."
+    },
+    {
+      "id": 226,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "Which special method controls the user-friendly string from str(obj)?",
+      "options": [
+        "__repr__()",
+        "__call__()",
+        "__hash__()",
+        "__str__()"
+      ],
+      "answer": "__str__()",
+      "explanation": "__str__ provides a readable string representation."
+    },
+    {
+      "id": 227,
+      "topic": "OOP",
+      "difficulty": "Medium",
+      "question": "Which special method is intended for an unambiguous developer representation?",
+      "options": [
+        "__format__()",
+        "__bool__()",
+        "__repr__()",
+        "__str__()"
+      ],
+      "answer": "__repr__()",
+      "explanation": "__repr__ aims to provide an informative representation useful for debugging."
+    },
+    {
+      "id": 228,
+      "topic": "OOP",
+      "difficulty": "Hard",
+      "question": "What does @property allow?",
+      "options": [
+        "Automatic JSON encryption",
+        "Method access using attribute-style syntax",
+        "Automatic database storage",
+        "Thread-safe mutation"
+      ],
+      "answer": "Method access using attribute-style syntax",
+      "explanation": "Properties expose managed behavior through attribute access."
+    },
+    {
+      "id": 229,
+      "topic": "Exceptions",
+      "difficulty": "Medium",
+      "question": "Which exception occurs when converting 'hello' with int()?",
+      "options": [
+        "ValueError",
+        "TypeError",
+        "KeyError",
+        "IndexError"
+      ],
+      "answer": "ValueError",
+      "explanation": "The type is acceptable as input, but its contents are not a valid integer."
+    },
+    {
+      "id": 230,
+      "topic": "Exceptions",
+      "difficulty": "Medium",
+      "question": "Which exception commonly occurs when a dictionary key is absent?",
+      "options": [
+        "IndexError",
+        "NameError",
+        "ValueError",
+        "KeyError"
+      ],
+      "answer": "KeyError",
+      "explanation": "Dictionary indexing raises KeyError for a missing key."
+    },
+    {
+      "id": 231,
+      "topic": "Exceptions",
+      "difficulty": "Medium",
+      "question": "Which exception commonly occurs when a list index is out of range?",
+      "options": [
+        "ImportError",
+        "AttributeError",
+        "IndexError",
+        "KeyError"
+      ],
+      "answer": "IndexError",
+      "explanation": "Sequence indexing raises IndexError for an invalid index."
+    },
+    {
+      "id": 232,
+      "topic": "Modules",
+      "difficulty": "Easy",
+      "question": "Which statement imports only sqrt from math?",
+      "options": [
+        "using math.sqrt",
+        "from math import sqrt",
+        "import sqrt from math",
+        "include math.sqrt"
+      ],
+      "answer": "from math import sqrt",
+      "explanation": "from module import name imports a selected name."
+    },
+    {
+      "id": 233,
+      "topic": "Modules",
+      "difficulty": "Medium",
+      "question": "What does import package.module as m do?",
+      "options": [
+        "Imports the module using the alias m",
+        "Renames the source file",
+        "Installs the package",
+        "Runs the module as a server"
+      ],
+      "answer": "Imports the module using the alias m",
+      "explanation": "as binds an imported module to an alias."
+    },
+    {
+      "id": 234,
+      "topic": "Files",
+      "difficulty": "Medium",
+      "question": "Which method writes a string to an open text file?",
+      "options": [
+        "printfile()",
+        "appendline()",
+        "save()",
+        "write()"
+      ],
+      "answer": "write()",
+      "explanation": "write sends a string to the file object."
+    },
+    {
+      "id": 235,
+      "topic": "Files",
+      "difficulty": "Medium",
+      "question": "Which method returns all remaining lines as a list?",
+      "options": [
+        "read()",
+        "lines()",
+        "readlines()",
+        "readline()"
+      ],
+      "answer": "readlines()",
+      "explanation": "readlines returns a list of line strings."
+    },
+    {
+      "id": 236,
+      "topic": "Iterators",
+      "difficulty": "Medium",
+      "question": "What exception signals that an iterator has no more items?",
+      "options": [
+        "GeneratorExit",
+        "StopIteration",
+        "EndOfFile",
+        "IndexError"
+      ],
+      "answer": "StopIteration",
+      "explanation": "The iterator protocol uses StopIteration to signal exhaustion."
+    },
+    {
+      "id": 237,
+      "topic": "Generators",
+      "difficulty": "Hard",
+      "question": "Can a generator be resumed after yielding a value?",
+      "options": [
+        "Yes, iteration resumes from the suspended point",
+        "No, it is permanently closed",
+        "Only after recreating the module",
+        "Only from another thread"
+      ],
+      "answer": "Yes, iteration resumes from the suspended point",
+      "explanation": "A generator preserves its execution state between yields."
+    },
+    {
+      "id": 238,
+      "topic": "Typing",
+      "difficulty": "Medium",
+      "question": "What does list[str] express in a type annotation?",
+      "options": [
+        "A list converted to strings at runtime",
+        "A tuple of strings",
+        "A dictionary of strings",
+        "A list whose elements are intended to be strings"
+      ],
+      "answer": "A list whose elements are intended to be strings",
+      "explanation": "Generic type annotations describe expected element types to tools and readers."
+    },
+    {
+      "id": 239,
+      "topic": "Typing",
+      "difficulty": "Hard",
+      "question": "What does a Protocol describe in structural typing?",
+      "options": [
+        "A network handshake",
+        "A binary file header",
+        "A set of attributes or methods a type should provide",
+        "A required base class only"
+      ],
+      "answer": "A set of attributes or methods a type should provide",
+      "explanation": "Protocols allow compatibility based on supported behavior rather than inheritance."
+    },
+    {
+      "id": 240,
+      "topic": "Packaging",
+      "difficulty": "Medium",
+      "question": "What command commonly creates a virtual environment named .venv?",
+      "options": [
+        "git venv .venv",
+        "python -m venv .venv",
+        "pip install .venv",
+        "python .venv create"
+      ],
+      "answer": "python -m venv .venv",
+      "explanation": "The venv module creates isolated environments."
+    },
+    {
+      "id": 241,
+      "topic": "Packaging",
+      "difficulty": "Medium",
+      "question": "What command installs dependencies listed in requirements.txt?",
+      "options": [
+        "pip install -r requirements.txt",
+        "pip run requirements.txt",
+        "python requirements.txt",
+        "pip freeze -r requirements.txt"
+      ],
+      "answer": "pip install -r requirements.txt",
+      "explanation": "pip's -r option reads a requirements file."
+    },
+    {
+      "id": 242,
+      "topic": "Version Control",
+      "difficulty": "Easy",
+      "question": "What does git status show?",
+      "options": [
+        "The website's traffic",
+        "Python package versions",
+        "The remote server CPU",
+        "The state of the working tree and staging area"
+      ],
+      "answer": "The state of the working tree and staging area",
+      "explanation": "git status summarizes changed, staged, and untracked files."
+    },
+    {
+      "id": 243,
+      "topic": "Version Control",
+      "difficulty": "Medium",
+      "question": "What does git clone do?",
+      "options": [
+        "Deploys a Flask app",
+        "Runs Python tests",
+        "Creates a local copy of a remote repository",
+        "Deletes remote branches"
+      ],
+      "answer": "Creates a local copy of a remote repository",
+      "explanation": "clone downloads repository data and checks out a working copy."
+    },
+    {
+      "id": 244,
+      "topic": "Algorithms",
+      "difficulty": "Medium",
+      "question": "Which search method requires sorted data and repeatedly halves the range?",
+      "options": [
+        "Breadth-first search",
+        "Binary search",
+        "Linear search",
+        "Depth-first search"
+      ],
+      "answer": "Binary search",
+      "explanation": "Binary search relies on ordered data to discard half the search space."
+    },
+    {
+      "id": 245,
+      "topic": "Algorithms",
+      "difficulty": "Hard",
+      "question": "What is a base case in recursion?",
+      "options": [
+        "A condition that stops further recursive calls",
+        "A global variable",
+        "A loop counter only",
+        "A class attribute"
+      ],
+      "answer": "A condition that stops further recursive calls",
+      "explanation": "A base case prevents unbounded recursive calls."
+    },
+    {
+      "id": 246,
+      "topic": "Algorithms",
+      "difficulty": "Hard",
+      "question": "What is the purpose of a visited set in graph traversal?",
+      "options": [
+        "To sort vertices alphabetically",
+        "To store edge weights only",
+        "To remove every cycle from the graph",
+        "To avoid processing the same vertex repeatedly"
+      ],
+      "answer": "To avoid processing the same vertex repeatedly",
+      "explanation": "Visited tracking prevents repeated work and infinite traversal around cycles."
+    },
+    {
+      "id": 247,
+      "topic": "Database",
+      "difficulty": "Hard",
+      "question": "What does normalization aim to reduce?",
+      "options": [
+        "All database constraints",
+        "The need for queries",
+        "Redundant data and update anomalies",
+        "All database indexes"
+      ],
+      "answer": "Redundant data and update anomalies",
+      "explanation": "Normalization structures relational data to reduce redundancy and anomalies."
+    },
+    {
+      "id": 248,
+      "topic": "Database",
+      "difficulty": "Hard",
+      "question": "What does a foreign key represent?",
+      "options": [
+        "A temporary file",
+        "A relationship referencing a key in another or the same table",
+        "A password hash",
+        "A Python object ID"
+      ],
+      "answer": "A relationship referencing a key in another or the same table",
+      "explanation": "Foreign keys enforce referential integrity."
+    },
+    {
+      "id": 249,
+      "topic": "Web",
+      "difficulty": "Medium",
+      "question": "What does a Flask template engine commonly help generate?",
+      "options": [
+        "HTML using templates and dynamic values",
+        "Database indexes",
+        "Python bytecode",
+        "Operating system processes"
+      ],
+      "answer": "HTML using templates and dynamic values",
+      "explanation": "Flask commonly uses Jinja templates to render dynamic HTML."
+    },
+    {
+      "id": 250,
+      "topic": "Web",
+      "difficulty": "Hard",
+      "question": "What is CSRF?",
+      "options": [
+        "A Python syntax error",
+        "A database index type",
+        "A sorting algorithm",
+        "A forged request that causes a user's browser to perform an unwanted action"
+      ],
+      "answer": "A forged request that causes a user's browser to perform an unwanted action",
+      "explanation": "CSRF defenses use tokens and appropriate cookie/request protections."
+    },
+    {
+      "id": 251,
+      "topic": "Security",
+      "difficulty": "Hard",
+      "question": "Why should passwords be salted before password hashing?",
+      "options": [
+        "To shorten passwords",
+        "To avoid checking passwords",
+        "To make identical passwords produce different stored hashes",
+        "To make hashes reversible"
+      ],
+      "answer": "To make identical passwords produce different stored hashes",
+      "explanation": "Unique salts frustrate precomputed attacks and reveal fewer password matches."
+    },
+    {
+      "id": 252,
+      "topic": "Data",
+      "difficulty": "Medium",
+      "question": "What does DataFrame.head() usually show?",
+      "options": [
+        "The data types only",
+        "The first few rows",
+        "The last column only",
+        "A chart"
+      ],
+      "answer": "The first few rows",
+      "explanation": "head() displays the first five rows by default."
+    },
+    {
+      "id": 253,
+      "topic": "Data",
+      "difficulty": "Medium",
+      "question": "What does DataFrame.isna() identify?",
+      "options": [
+        "Missing-value locations",
+        "Duplicate column names only",
+        "Sorted rows",
+        "Outlier values only"
+      ],
+      "answer": "Missing-value locations",
+      "explanation": "isna returns a Boolean mask for missing values."
+    },
+    {
+      "id": 254,
+      "topic": "Python Internals",
+      "difficulty": "Hard",
+      "question": "What does bytecode refer to in CPython?",
+      "options": [
+        "Native CPU machine code in every case",
+        "The original source text",
+        "A JSON representation",
+        "An intermediate instruction format executed by the Python virtual machine"
+      ],
+      "answer": "An intermediate instruction format executed by the Python virtual machine",
+      "explanation": "CPython compiles source to bytecode, commonly cached in __pycache__."
+    },
+    {
+      "id": 255,
+      "topic": "Python Internals",
+      "difficulty": "Hard",
+      "question": "What is __pycache__ commonly used to store?",
+      "options": [
+        "Git commits",
+        "Database backups",
+        "Cached compiled bytecode files",
+        "User passwords"
+      ],
+      "answer": "Cached compiled bytecode files",
+      "explanation": "Python may store .pyc bytecode cache files in __pycache__."
+    },
+    {
+      "id": 256,
+      "topic": "Python Internals",
+      "difficulty": "Hard",
+      "question": "Does a .pyc file normally contain human-readable Python source?",
+      "options": [
+        "It is a compressed ZIP of the project",
+        "No, it contains compiled bytecode and metadata",
+        "Yes, always the full source",
+        "It contains only images"
+      ],
+      "answer": "No, it contains compiled bytecode and metadata",
+      "explanation": ".pyc files are bytecode caches, not normal source files."
+    },
+    {
+      "id": 257,
+      "topic": "Debugging",
+      "difficulty": "Medium",
+      "question": "What is a linter used for?",
+      "options": [
+        "Flagging likely errors and style issues in source code",
+        "Hosting a website",
+        "Storing SQL rows",
+        "Compressing images"
+      ],
+      "answer": "Flagging likely errors and style issues in source code",
+      "explanation": "Linters analyze code for suspicious patterns and style concerns."
+    },
+    {
+      "id": 258,
+      "topic": "Debugging",
+      "difficulty": "Medium",
+      "question": "What is a formatter used for?",
+      "options": [
+        "Running database migrations",
+        "Encrypting files",
+        "Managing cloud servers",
+        "Applying consistent code formatting automatically"
+      ],
+      "answer": "Applying consistent code formatting automatically",
+      "explanation": "Formatters standardize layout without changing intended program behavior."
+    },
+    {
+      "id": 259,
+      "topic": "Real World",
+      "difficulty": "Hard",
+      "question": "A background task must retry temporary network failures. What should a robust retry policy include?",
+      "options": [
+        "Ignoring all error codes",
+        "Retrying permanent validation errors forever",
+        "A bounded retry count and backoff",
+        "Immediate infinite retries"
+      ],
+      "answer": "A bounded retry count and backoff",
+      "explanation": "Bounded exponential backoff reduces load and avoids endless retry loops."
+    },
+    {
+      "id": 260,
+      "topic": "Real World",
+      "difficulty": "Hard",
+      "question": "A program handles user input from a web form. What is a good validation principle?",
+      "options": [
+        "Only validate after writing to the database",
+        "Validate type, format, length, and allowed values on the server",
+        "Trust browser-side validation alone",
+        "Accept every value as safe"
+      ],
+      "answer": "Validate type, format, length, and allowed values on the server",
+      "explanation": "Server-side validation is required because clients can be bypassed."
+    },
+    {
+      "id": 261,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the value of 9 + 3 in Python?",
+      "options": [
+        "12",
+        "13",
+        "27",
+        "6"
+      ],
+      "answer": "12",
+      "explanation": "The + operator adds the two integer operands."
+    },
+    {
+      "id": 262,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the value of 7 * 2 in Python?",
+      "options": [
+        "7",
+        "9",
+        "49",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "The * operator multiplies the numeric operands."
+    },
+    {
+      "id": 263,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which built-in reports the type of the value 3?",
+      "options": [
+        "id()",
+        "dir()",
+        "type()",
+        "len()"
+      ],
+      "answer": "type()",
+      "explanation": "type() returns the object's type."
+    },
+    {
+      "id": 264,
+      "topic": "Python Basics",
+      "difficulty": "Easy",
+      "question": "Which built-in returns the identity of an object named value?",
+      "options": [
+        "str(value)",
+        "id(value)",
+        "type(value)",
+        "len(value)"
+      ],
+      "answer": "id(value)",
+      "explanation": "id() returns an object's identity integer during its lifetime."
+    },
+    {
+      "id": 265,
+      "topic": "Collections",
+      "difficulty": "Medium",
+      "question": "Which operation creates a shallow copy of a list named items?",
+      "options": [
+        "items.copy()",
+        "items.clear()",
+        "items.pop()",
+        "items.sort()"
+      ],
+      "answer": "items.copy()",
+      "explanation": "copy() creates a new list containing references to the original elements."
+    },
+    {
+      "id": 266,
+      "topic": "Functions",
+      "difficulty": "Medium",
+      "question": "Which keyword sends control and a value back to the caller from a function?",
+      "options": [
+        "break",
+        "continue",
+        "global",
+        "return"
+      ],
+      "answer": "return",
+      "explanation": "return exits the current function and optionally supplies a value."
+    },
+    {
+      "id": 267,
+      "topic": "Files",
+      "difficulty": "Medium",
+      "question": "Which file method moves the current file position?",
+      "options": [
+        "read()",
+        "flush()",
+        "seek()",
+        "tell()"
+      ],
+      "answer": "seek()",
+      "explanation": "seek() changes the stream position; tell() reports it."
+    },
+    {
+      "id": 268,
+      "topic": "Modules",
+      "difficulty": "Medium",
+      "question": "Which standard module provides command-line argument access through sys.argv?",
+      "options": [
+        "json",
+        "sys",
+        "os.path",
+        "math"
+      ],
+      "answer": "sys",
+      "explanation": "sys.argv contains the command-line arguments passed to a Python script."
+    },
+    {
+      "id": 269,
+      "topic": "Algorithms",
+      "difficulty": "Medium",
+      "question": "Which approach checks elements one by one until a target is found?",
+      "options": [
+        "Linear search",
+        "Binary search",
+        "Heap sort",
+        "Merge sort"
+      ],
+      "answer": "Linear search",
+      "explanation": "Linear search examines elements sequentially."
+    },
+    {
+      "id": 270,
+      "topic": "Testing",
+      "difficulty": "Medium",
+      "question": "Which test principle means a test should give the same result when repeated under the same conditions?",
+      "options": [
+        "Randomness",
+        "Coupling",
+        "Mutation",
+        "Determinism"
+      ],
+      "answer": "Determinism",
+      "explanation": "Deterministic tests avoid uncontrolled dependencies on time, network, or random state."
+    },
+    {
+      "id": 271,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the value of 1 + 6 in Python?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "answer": "7",
+      "explanation": "The + operator adds the two integer operands."
+    },
+    {
+      "id": 272,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the value of 9 * 2 in Python?",
+      "options": [
+        "81",
+        "18",
+        "9",
+        "11"
+      ],
+      "answer": "18",
+      "explanation": "The * operator multiplies the numeric operands."
+    },
+    {
+      "id": 273,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 3 in Python?",
+      "options": [
+        "5",
+        "6",
+        "6",
+        "1"
+      ],
+      "answer": "5",
+      "explanation": "The + operator adds the integers: 2 + 3 = 5."
+    },
+    {
+      "id": 274,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 4 in Python?",
+      "options": [
+        "7",
+        "8",
+        "2",
+        "6"
+      ],
+      "answer": "6",
+      "explanation": "The + operator adds the integers: 2 + 4 = 6."
+    },
+    {
+      "id": 275,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 5 in Python?",
+      "options": [
+        "10",
+        "3",
+        "7",
+        "8"
+      ],
+      "answer": "7",
+      "explanation": "The + operator adds the integers: 2 + 5 = 7."
+    },
+    {
+      "id": 276,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 6 in Python?",
+      "options": [
+        "4",
+        "8",
+        "9",
+        "12"
+      ],
+      "answer": "8",
+      "explanation": "The + operator adds the integers: 2 + 6 = 8."
+    },
+    {
+      "id": 277,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 7 in Python?",
+      "options": [
+        "9",
+        "10",
+        "14",
+        "5"
+      ],
+      "answer": "9",
+      "explanation": "The + operator adds the integers: 2 + 7 = 9."
+    },
+    {
+      "id": 278,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 8 in Python?",
+      "options": [
+        "11",
+        "16",
+        "6",
+        "10"
+      ],
+      "answer": "10",
+      "explanation": "The + operator adds the integers: 2 + 8 = 10."
+    },
+    {
+      "id": 279,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 9 in Python?",
+      "options": [
+        "18",
+        "7",
+        "11",
+        "12"
+      ],
+      "answer": "11",
+      "explanation": "The + operator adds the integers: 2 + 9 = 11."
+    },
+    {
+      "id": 280,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 10 in Python?",
+      "options": [
+        "8",
+        "12",
+        "13",
+        "20"
+      ],
+      "answer": "12",
+      "explanation": "The + operator adds the integers: 2 + 10 = 12."
+    },
+    {
+      "id": 281,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 11 in Python?",
+      "options": [
+        "13",
+        "14",
+        "22",
+        "9"
+      ],
+      "answer": "13",
+      "explanation": "The + operator adds the integers: 2 + 11 = 13."
+    },
+    {
+      "id": 282,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 12 in Python?",
+      "options": [
+        "15",
+        "24",
+        "10",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "The + operator adds the integers: 2 + 12 = 14."
+    },
+    {
+      "id": 283,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 13 in Python?",
+      "options": [
+        "26",
+        "11",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "The + operator adds the integers: 2 + 13 = 15."
+    },
+    {
+      "id": 284,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 14 in Python?",
+      "options": [
+        "12",
+        "16",
+        "17",
+        "28"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 2 + 14 = 16."
+    },
+    {
+      "id": 285,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 15 in Python?",
+      "options": [
+        "17",
+        "18",
+        "30",
+        "13"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 2 + 15 = 17."
+    },
+    {
+      "id": 286,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 16 in Python?",
+      "options": [
+        "19",
+        "32",
+        "14",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 2 + 16 = 18."
+    },
+    {
+      "id": 287,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 17 in Python?",
+      "options": [
+        "34",
+        "15",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 2 + 17 = 19."
+    },
+    {
+      "id": 288,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 18 in Python?",
+      "options": [
+        "16",
+        "20",
+        "21",
+        "36"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 2 + 18 = 20."
+    },
+    {
+      "id": 289,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 2 + 19 in Python?",
+      "options": [
+        "21",
+        "22",
+        "38",
+        "17"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 2 + 19 = 21."
+    },
+    {
+      "id": 290,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 3 in Python?",
+      "options": [
+        "7",
+        "9",
+        "0",
+        "6"
+      ],
+      "answer": "6",
+      "explanation": "The + operator adds the integers: 3 + 3 = 6."
+    },
+    {
+      "id": 291,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 4 in Python?",
+      "options": [
+        "12",
+        "1",
+        "7",
+        "8"
+      ],
+      "answer": "7",
+      "explanation": "The + operator adds the integers: 3 + 4 = 7."
+    },
+    {
+      "id": 292,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 5 in Python?",
+      "options": [
+        "2",
+        "8",
+        "9",
+        "15"
+      ],
+      "answer": "8",
+      "explanation": "The + operator adds the integers: 3 + 5 = 8."
+    },
+    {
+      "id": 293,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 6 in Python?",
+      "options": [
+        "9",
+        "10",
+        "18",
+        "3"
+      ],
+      "answer": "9",
+      "explanation": "The + operator adds the integers: 3 + 6 = 9."
+    },
+    {
+      "id": 294,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 7 in Python?",
+      "options": [
+        "11",
+        "21",
+        "4",
+        "10"
+      ],
+      "answer": "10",
+      "explanation": "The + operator adds the integers: 3 + 7 = 10."
+    },
+    {
+      "id": 295,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 8 in Python?",
+      "options": [
+        "24",
+        "5",
+        "11",
+        "12"
+      ],
+      "answer": "11",
+      "explanation": "The + operator adds the integers: 3 + 8 = 11."
+    },
+    {
+      "id": 296,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 9 in Python?",
+      "options": [
+        "6",
+        "12",
+        "13",
+        "27"
+      ],
+      "answer": "12",
+      "explanation": "The + operator adds the integers: 3 + 9 = 12."
+    },
+    {
+      "id": 297,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 10 in Python?",
+      "options": [
+        "13",
+        "14",
+        "30",
+        "7"
+      ],
+      "answer": "13",
+      "explanation": "The + operator adds the integers: 3 + 10 = 13."
+    },
+    {
+      "id": 298,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 11 in Python?",
+      "options": [
+        "15",
+        "33",
+        "8",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "The + operator adds the integers: 3 + 11 = 14."
+    },
+    {
+      "id": 299,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 12 in Python?",
+      "options": [
+        "36",
+        "9",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "The + operator adds the integers: 3 + 12 = 15."
+    },
+    {
+      "id": 300,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 13 in Python?",
+      "options": [
+        "10",
+        "16",
+        "17",
+        "39"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 3 + 13 = 16."
+    },
+    {
+      "id": 301,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 14 in Python?",
+      "options": [
+        "17",
+        "18",
+        "42",
+        "11"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 3 + 14 = 17."
+    },
+    {
+      "id": 302,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 15 in Python?",
+      "options": [
+        "19",
+        "45",
+        "12",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 3 + 15 = 18."
+    },
+    {
+      "id": 303,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 16 in Python?",
+      "options": [
+        "48",
+        "13",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 3 + 16 = 19."
+    },
+    {
+      "id": 304,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 17 in Python?",
+      "options": [
+        "14",
+        "20",
+        "21",
+        "51"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 3 + 17 = 20."
+    },
+    {
+      "id": 305,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 18 in Python?",
+      "options": [
+        "21",
+        "22",
+        "54",
+        "15"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 3 + 18 = 21."
+    },
+    {
+      "id": 306,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 3 + 19 in Python?",
+      "options": [
+        "23",
+        "57",
+        "16",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 3 + 19 = 22."
+    },
+    {
+      "id": 307,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 3 in Python?",
+      "options": [
+        "12",
+        "1",
+        "7",
+        "8"
+      ],
+      "answer": "7",
+      "explanation": "The + operator adds the integers: 4 + 3 = 7."
+    },
+    {
+      "id": 308,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 4 in Python?",
+      "options": [
+        "0",
+        "8",
+        "9",
+        "16"
+      ],
+      "answer": "8",
+      "explanation": "The + operator adds the integers: 4 + 4 = 8."
+    },
+    {
+      "id": 309,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 5 in Python?",
+      "options": [
+        "9",
+        "10",
+        "20",
+        "1"
+      ],
+      "answer": "9",
+      "explanation": "The + operator adds the integers: 4 + 5 = 9."
+    },
+    {
+      "id": 310,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 6 in Python?",
+      "options": [
+        "11",
+        "24",
+        "2",
+        "10"
+      ],
+      "answer": "10",
+      "explanation": "The + operator adds the integers: 4 + 6 = 10."
+    },
+    {
+      "id": 311,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 7 in Python?",
+      "options": [
+        "28",
+        "3",
+        "11",
+        "12"
+      ],
+      "answer": "11",
+      "explanation": "The + operator adds the integers: 4 + 7 = 11."
+    },
+    {
+      "id": 312,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 8 in Python?",
+      "options": [
+        "4",
+        "12",
+        "13",
+        "32"
+      ],
+      "answer": "12",
+      "explanation": "The + operator adds the integers: 4 + 8 = 12."
+    },
+    {
+      "id": 313,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 9 in Python?",
+      "options": [
+        "13",
+        "14",
+        "36",
+        "5"
+      ],
+      "answer": "13",
+      "explanation": "The + operator adds the integers: 4 + 9 = 13."
+    },
+    {
+      "id": 314,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 10 in Python?",
+      "options": [
+        "15",
+        "40",
+        "6",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "The + operator adds the integers: 4 + 10 = 14."
+    },
+    {
+      "id": 315,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 11 in Python?",
+      "options": [
+        "44",
+        "7",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "The + operator adds the integers: 4 + 11 = 15."
+    },
+    {
+      "id": 316,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 12 in Python?",
+      "options": [
+        "8",
+        "16",
+        "17",
+        "48"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 4 + 12 = 16."
+    },
+    {
+      "id": 317,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 13 in Python?",
+      "options": [
+        "17",
+        "18",
+        "52",
+        "9"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 4 + 13 = 17."
+    },
+    {
+      "id": 318,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 14 in Python?",
+      "options": [
+        "19",
+        "56",
+        "10",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 4 + 14 = 18."
+    },
+    {
+      "id": 319,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 15 in Python?",
+      "options": [
+        "60",
+        "11",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 4 + 15 = 19."
+    },
+    {
+      "id": 320,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 16 in Python?",
+      "options": [
+        "12",
+        "20",
+        "21",
+        "64"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 4 + 16 = 20."
+    },
+    {
+      "id": 321,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 17 in Python?",
+      "options": [
+        "21",
+        "22",
+        "68",
+        "13"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 4 + 17 = 21."
+    },
+    {
+      "id": 322,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 18 in Python?",
+      "options": [
+        "23",
+        "72",
+        "14",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 4 + 18 = 22."
+    },
+    {
+      "id": 323,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 4 + 19 in Python?",
+      "options": [
+        "76",
+        "15",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 4 + 19 = 23."
+    },
+    {
+      "id": 324,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 3 in Python?",
+      "options": [
+        "2",
+        "8",
+        "9",
+        "15"
+      ],
+      "answer": "8",
+      "explanation": "The + operator adds the integers: 5 + 3 = 8."
+    },
+    {
+      "id": 325,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 4 in Python?",
+      "options": [
+        "9",
+        "10",
+        "20",
+        "1"
+      ],
+      "answer": "9",
+      "explanation": "The + operator adds the integers: 5 + 4 = 9."
+    },
+    {
+      "id": 326,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 5 in Python?",
+      "options": [
+        "11",
+        "25",
+        "0",
+        "10"
+      ],
+      "answer": "10",
+      "explanation": "The + operator adds the integers: 5 + 5 = 10."
+    },
+    {
+      "id": 327,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 6 in Python?",
+      "options": [
+        "30",
+        "1",
+        "11",
+        "12"
+      ],
+      "answer": "11",
+      "explanation": "The + operator adds the integers: 5 + 6 = 11."
+    },
+    {
+      "id": 328,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 7 in Python?",
+      "options": [
+        "2",
+        "12",
+        "13",
+        "35"
+      ],
+      "answer": "12",
+      "explanation": "The + operator adds the integers: 5 + 7 = 12."
+    },
+    {
+      "id": 329,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 8 in Python?",
+      "options": [
+        "13",
+        "14",
+        "40",
+        "3"
+      ],
+      "answer": "13",
+      "explanation": "The + operator adds the integers: 5 + 8 = 13."
+    },
+    {
+      "id": 330,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 9 in Python?",
+      "options": [
+        "15",
+        "45",
+        "4",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "The + operator adds the integers: 5 + 9 = 14."
+    },
+    {
+      "id": 331,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 10 in Python?",
+      "options": [
+        "50",
+        "5",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "The + operator adds the integers: 5 + 10 = 15."
+    },
+    {
+      "id": 332,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 11 in Python?",
+      "options": [
+        "6",
+        "16",
+        "17",
+        "55"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 5 + 11 = 16."
+    },
+    {
+      "id": 333,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 12 in Python?",
+      "options": [
+        "17",
+        "18",
+        "60",
+        "7"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 5 + 12 = 17."
+    },
+    {
+      "id": 334,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 13 in Python?",
+      "options": [
+        "19",
+        "65",
+        "8",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 5 + 13 = 18."
+    },
+    {
+      "id": 335,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 14 in Python?",
+      "options": [
+        "70",
+        "9",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 5 + 14 = 19."
+    },
+    {
+      "id": 336,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 15 in Python?",
+      "options": [
+        "10",
+        "20",
+        "21",
+        "75"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 5 + 15 = 20."
+    },
+    {
+      "id": 337,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 16 in Python?",
+      "options": [
+        "21",
+        "22",
+        "80",
+        "11"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 5 + 16 = 21."
+    },
+    {
+      "id": 338,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 17 in Python?",
+      "options": [
+        "23",
+        "85",
+        "12",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 5 + 17 = 22."
+    },
+    {
+      "id": 339,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 18 in Python?",
+      "options": [
+        "90",
+        "13",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 5 + 18 = 23."
+    },
+    {
+      "id": 340,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 5 + 19 in Python?",
+      "options": [
+        "14",
+        "24",
+        "25",
+        "95"
+      ],
+      "answer": "24",
+      "explanation": "The + operator adds the integers: 5 + 19 = 24."
+    },
+    {
+      "id": 341,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 3 in Python?",
+      "options": [
+        "9",
+        "10",
+        "18",
+        "3"
+      ],
+      "answer": "9",
+      "explanation": "The + operator adds the integers: 6 + 3 = 9."
+    },
+    {
+      "id": 342,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 4 in Python?",
+      "options": [
+        "11",
+        "24",
+        "2",
+        "10"
+      ],
+      "answer": "10",
+      "explanation": "The + operator adds the integers: 6 + 4 = 10."
+    },
+    {
+      "id": 343,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 5 in Python?",
+      "options": [
+        "30",
+        "1",
+        "11",
+        "12"
+      ],
+      "answer": "11",
+      "explanation": "The + operator adds the integers: 6 + 5 = 11."
+    },
+    {
+      "id": 344,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 6 in Python?",
+      "options": [
+        "0",
+        "12",
+        "13",
+        "36"
+      ],
+      "answer": "12",
+      "explanation": "The + operator adds the integers: 6 + 6 = 12."
+    },
+    {
+      "id": 345,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 7 in Python?",
+      "options": [
+        "13",
+        "14",
+        "42",
+        "1"
+      ],
+      "answer": "13",
+      "explanation": "The + operator adds the integers: 6 + 7 = 13."
+    },
+    {
+      "id": 346,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 8 in Python?",
+      "options": [
+        "15",
+        "48",
+        "2",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "The + operator adds the integers: 6 + 8 = 14."
+    },
+    {
+      "id": 347,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 9 in Python?",
+      "options": [
+        "54",
+        "3",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "The + operator adds the integers: 6 + 9 = 15."
+    },
+    {
+      "id": 348,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 10 in Python?",
+      "options": [
+        "4",
+        "16",
+        "17",
+        "60"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 6 + 10 = 16."
+    },
+    {
+      "id": 349,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 11 in Python?",
+      "options": [
+        "17",
+        "18",
+        "66",
+        "5"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 6 + 11 = 17."
+    },
+    {
+      "id": 350,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 12 in Python?",
+      "options": [
+        "19",
+        "72",
+        "6",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 6 + 12 = 18."
+    },
+    {
+      "id": 351,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 13 in Python?",
+      "options": [
+        "78",
+        "7",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 6 + 13 = 19."
+    },
+    {
+      "id": 352,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 14 in Python?",
+      "options": [
+        "8",
+        "20",
+        "21",
+        "84"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 6 + 14 = 20."
+    },
+    {
+      "id": 353,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 15 in Python?",
+      "options": [
+        "21",
+        "22",
+        "90",
+        "9"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 6 + 15 = 21."
+    },
+    {
+      "id": 354,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 16 in Python?",
+      "options": [
+        "23",
+        "96",
+        "10",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 6 + 16 = 22."
+    },
+    {
+      "id": 355,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 17 in Python?",
+      "options": [
+        "102",
+        "11",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 6 + 17 = 23."
+    },
+    {
+      "id": 356,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 18 in Python?",
+      "options": [
+        "12",
+        "24",
+        "25",
+        "108"
+      ],
+      "answer": "24",
+      "explanation": "The + operator adds the integers: 6 + 18 = 24."
+    },
+    {
+      "id": 357,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 6 + 19 in Python?",
+      "options": [
+        "25",
+        "26",
+        "114",
+        "13"
+      ],
+      "answer": "25",
+      "explanation": "The + operator adds the integers: 6 + 19 = 25."
+    },
+    {
+      "id": 358,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 3 in Python?",
+      "options": [
+        "11",
+        "21",
+        "4",
+        "10"
+      ],
+      "answer": "10",
+      "explanation": "The + operator adds the integers: 7 + 3 = 10."
+    },
+    {
+      "id": 359,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 4 in Python?",
+      "options": [
+        "28",
+        "3",
+        "11",
+        "12"
+      ],
+      "answer": "11",
+      "explanation": "The + operator adds the integers: 7 + 4 = 11."
+    },
+    {
+      "id": 360,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 5 in Python?",
+      "options": [
+        "2",
+        "12",
+        "13",
+        "35"
+      ],
+      "answer": "12",
+      "explanation": "The + operator adds the integers: 7 + 5 = 12."
+    },
+    {
+      "id": 361,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 6 in Python?",
+      "options": [
+        "13",
+        "14",
+        "42",
+        "1"
+      ],
+      "answer": "13",
+      "explanation": "The + operator adds the integers: 7 + 6 = 13."
+    },
+    {
+      "id": 362,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 7 in Python?",
+      "options": [
+        "15",
+        "49",
+        "0",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "The + operator adds the integers: 7 + 7 = 14."
+    },
+    {
+      "id": 363,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 8 in Python?",
+      "options": [
+        "56",
+        "1",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "The + operator adds the integers: 7 + 8 = 15."
+    },
+    {
+      "id": 364,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 9 in Python?",
+      "options": [
+        "2",
+        "16",
+        "17",
+        "63"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 7 + 9 = 16."
+    },
+    {
+      "id": 365,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 10 in Python?",
+      "options": [
+        "17",
+        "18",
+        "70",
+        "3"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 7 + 10 = 17."
+    },
+    {
+      "id": 366,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 11 in Python?",
+      "options": [
+        "19",
+        "77",
+        "4",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 7 + 11 = 18."
+    },
+    {
+      "id": 367,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 12 in Python?",
+      "options": [
+        "84",
+        "5",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 7 + 12 = 19."
+    },
+    {
+      "id": 368,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 13 in Python?",
+      "options": [
+        "6",
+        "20",
+        "21",
+        "91"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 7 + 13 = 20."
+    },
+    {
+      "id": 369,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 14 in Python?",
+      "options": [
+        "21",
+        "22",
+        "98",
+        "7"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 7 + 14 = 21."
+    },
+    {
+      "id": 370,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 15 in Python?",
+      "options": [
+        "23",
+        "105",
+        "8",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 7 + 15 = 22."
+    },
+    {
+      "id": 371,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 16 in Python?",
+      "options": [
+        "112",
+        "9",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 7 + 16 = 23."
+    },
+    {
+      "id": 372,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 17 in Python?",
+      "options": [
+        "10",
+        "24",
+        "25",
+        "119"
+      ],
+      "answer": "24",
+      "explanation": "The + operator adds the integers: 7 + 17 = 24."
+    },
+    {
+      "id": 373,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 18 in Python?",
+      "options": [
+        "25",
+        "26",
+        "126",
+        "11"
+      ],
+      "answer": "25",
+      "explanation": "The + operator adds the integers: 7 + 18 = 25."
+    },
+    {
+      "id": 374,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 7 + 19 in Python?",
+      "options": [
+        "27",
+        "133",
+        "12",
+        "26"
+      ],
+      "answer": "26",
+      "explanation": "The + operator adds the integers: 7 + 19 = 26."
+    },
+    {
+      "id": 375,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 3 in Python?",
+      "options": [
+        "24",
+        "5",
+        "11",
+        "12"
+      ],
+      "answer": "11",
+      "explanation": "The + operator adds the integers: 8 + 3 = 11."
+    },
+    {
+      "id": 376,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 4 in Python?",
+      "options": [
+        "4",
+        "12",
+        "13",
+        "32"
+      ],
+      "answer": "12",
+      "explanation": "The + operator adds the integers: 8 + 4 = 12."
+    },
+    {
+      "id": 377,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 5 in Python?",
+      "options": [
+        "13",
+        "14",
+        "40",
+        "3"
+      ],
+      "answer": "13",
+      "explanation": "The + operator adds the integers: 8 + 5 = 13."
+    },
+    {
+      "id": 378,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 6 in Python?",
+      "options": [
+        "15",
+        "48",
+        "2",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "The + operator adds the integers: 8 + 6 = 14."
+    },
+    {
+      "id": 379,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 7 in Python?",
+      "options": [
+        "56",
+        "1",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "The + operator adds the integers: 8 + 7 = 15."
+    },
+    {
+      "id": 380,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 8 in Python?",
+      "options": [
+        "0",
+        "16",
+        "17",
+        "64"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 8 + 8 = 16."
+    },
+    {
+      "id": 381,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 9 in Python?",
+      "options": [
+        "17",
+        "18",
+        "72",
+        "1"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 8 + 9 = 17."
+    },
+    {
+      "id": 382,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 10 in Python?",
+      "options": [
+        "19",
+        "80",
+        "2",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 8 + 10 = 18."
+    },
+    {
+      "id": 383,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 11 in Python?",
+      "options": [
+        "88",
+        "3",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 8 + 11 = 19."
+    },
+    {
+      "id": 384,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 12 in Python?",
+      "options": [
+        "4",
+        "20",
+        "21",
+        "96"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 8 + 12 = 20."
+    },
+    {
+      "id": 385,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 13 in Python?",
+      "options": [
+        "21",
+        "22",
+        "104",
+        "5"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 8 + 13 = 21."
+    },
+    {
+      "id": 386,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 14 in Python?",
+      "options": [
+        "23",
+        "112",
+        "6",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 8 + 14 = 22."
+    },
+    {
+      "id": 387,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 15 in Python?",
+      "options": [
+        "120",
+        "7",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 8 + 15 = 23."
+    },
+    {
+      "id": 388,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 16 in Python?",
+      "options": [
+        "8",
+        "24",
+        "25",
+        "128"
+      ],
+      "answer": "24",
+      "explanation": "The + operator adds the integers: 8 + 16 = 24."
+    },
+    {
+      "id": 389,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 17 in Python?",
+      "options": [
+        "25",
+        "26",
+        "136",
+        "9"
+      ],
+      "answer": "25",
+      "explanation": "The + operator adds the integers: 8 + 17 = 25."
+    },
+    {
+      "id": 390,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 18 in Python?",
+      "options": [
+        "27",
+        "144",
+        "10",
+        "26"
+      ],
+      "answer": "26",
+      "explanation": "The + operator adds the integers: 8 + 18 = 26."
+    },
+    {
+      "id": 391,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 8 + 19 in Python?",
+      "options": [
+        "152",
+        "11",
+        "27",
+        "28"
+      ],
+      "answer": "27",
+      "explanation": "The + operator adds the integers: 8 + 19 = 27."
+    },
+    {
+      "id": 392,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 3 in Python?",
+      "options": [
+        "6",
+        "12",
+        "13",
+        "27"
+      ],
+      "answer": "12",
+      "explanation": "The + operator adds the integers: 9 + 3 = 12."
+    },
+    {
+      "id": 393,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 4 in Python?",
+      "options": [
+        "13",
+        "14",
+        "36",
+        "5"
+      ],
+      "answer": "13",
+      "explanation": "The + operator adds the integers: 9 + 4 = 13."
+    },
+    {
+      "id": 394,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 5 in Python?",
+      "options": [
+        "15",
+        "45",
+        "4",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "The + operator adds the integers: 9 + 5 = 14."
+    },
+    {
+      "id": 395,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 6 in Python?",
+      "options": [
+        "54",
+        "3",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "The + operator adds the integers: 9 + 6 = 15."
+    },
+    {
+      "id": 396,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 7 in Python?",
+      "options": [
+        "2",
+        "16",
+        "17",
+        "63"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 9 + 7 = 16."
+    },
+    {
+      "id": 397,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 8 in Python?",
+      "options": [
+        "17",
+        "18",
+        "72",
+        "1"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 9 + 8 = 17."
+    },
+    {
+      "id": 398,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 9 in Python?",
+      "options": [
+        "19",
+        "81",
+        "0",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 9 + 9 = 18."
+    },
+    {
+      "id": 399,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 10 in Python?",
+      "options": [
+        "90",
+        "1",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 9 + 10 = 19."
+    },
+    {
+      "id": 400,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 11 in Python?",
+      "options": [
+        "2",
+        "20",
+        "21",
+        "99"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 9 + 11 = 20."
+    },
+    {
+      "id": 401,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 12 in Python?",
+      "options": [
+        "21",
+        "22",
+        "108",
+        "3"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 9 + 12 = 21."
+    },
+    {
+      "id": 402,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 13 in Python?",
+      "options": [
+        "23",
+        "117",
+        "4",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 9 + 13 = 22."
+    },
+    {
+      "id": 403,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 14 in Python?",
+      "options": [
+        "126",
+        "5",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 9 + 14 = 23."
+    },
+    {
+      "id": 404,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 15 in Python?",
+      "options": [
+        "6",
+        "24",
+        "25",
+        "135"
+      ],
+      "answer": "24",
+      "explanation": "The + operator adds the integers: 9 + 15 = 24."
+    },
+    {
+      "id": 405,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 16 in Python?",
+      "options": [
+        "25",
+        "26",
+        "144",
+        "7"
+      ],
+      "answer": "25",
+      "explanation": "The + operator adds the integers: 9 + 16 = 25."
+    },
+    {
+      "id": 406,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 17 in Python?",
+      "options": [
+        "27",
+        "153",
+        "8",
+        "26"
+      ],
+      "answer": "26",
+      "explanation": "The + operator adds the integers: 9 + 17 = 26."
+    },
+    {
+      "id": 407,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 18 in Python?",
+      "options": [
+        "162",
+        "9",
+        "27",
+        "28"
+      ],
+      "answer": "27",
+      "explanation": "The + operator adds the integers: 9 + 18 = 27."
+    },
+    {
+      "id": 408,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 9 + 19 in Python?",
+      "options": [
+        "10",
+        "28",
+        "29",
+        "171"
+      ],
+      "answer": "28",
+      "explanation": "The + operator adds the integers: 9 + 19 = 28."
+    },
+    {
+      "id": 409,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 3 in Python?",
+      "options": [
+        "13",
+        "14",
+        "30",
+        "7"
+      ],
+      "answer": "13",
+      "explanation": "The + operator adds the integers: 10 + 3 = 13."
+    },
+    {
+      "id": 410,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 4 in Python?",
+      "options": [
+        "15",
+        "40",
+        "6",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "The + operator adds the integers: 10 + 4 = 14."
+    },
+    {
+      "id": 411,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 5 in Python?",
+      "options": [
+        "50",
+        "5",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "The + operator adds the integers: 10 + 5 = 15."
+    },
+    {
+      "id": 412,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 6 in Python?",
+      "options": [
+        "4",
+        "16",
+        "17",
+        "60"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 10 + 6 = 16."
+    },
+    {
+      "id": 413,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 7 in Python?",
+      "options": [
+        "17",
+        "18",
+        "70",
+        "3"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 10 + 7 = 17."
+    },
+    {
+      "id": 414,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 8 in Python?",
+      "options": [
+        "19",
+        "80",
+        "2",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 10 + 8 = 18."
+    },
+    {
+      "id": 415,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 9 in Python?",
+      "options": [
+        "90",
+        "1",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 10 + 9 = 19."
+    },
+    {
+      "id": 416,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 10 in Python?",
+      "options": [
+        "0",
+        "20",
+        "21",
+        "100"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 10 + 10 = 20."
+    },
+    {
+      "id": 417,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 11 in Python?",
+      "options": [
+        "21",
+        "22",
+        "110",
+        "1"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 10 + 11 = 21."
+    },
+    {
+      "id": 418,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 12 in Python?",
+      "options": [
+        "23",
+        "120",
+        "2",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 10 + 12 = 22."
+    },
+    {
+      "id": 419,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 13 in Python?",
+      "options": [
+        "130",
+        "3",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 10 + 13 = 23."
+    },
+    {
+      "id": 420,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 14 in Python?",
+      "options": [
+        "4",
+        "24",
+        "25",
+        "140"
+      ],
+      "answer": "24",
+      "explanation": "The + operator adds the integers: 10 + 14 = 24."
+    },
+    {
+      "id": 421,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 15 in Python?",
+      "options": [
+        "25",
+        "26",
+        "150",
+        "5"
+      ],
+      "answer": "25",
+      "explanation": "The + operator adds the integers: 10 + 15 = 25."
+    },
+    {
+      "id": 422,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 16 in Python?",
+      "options": [
+        "27",
+        "160",
+        "6",
+        "26"
+      ],
+      "answer": "26",
+      "explanation": "The + operator adds the integers: 10 + 16 = 26."
+    },
+    {
+      "id": 423,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 17 in Python?",
+      "options": [
+        "170",
+        "7",
+        "27",
+        "28"
+      ],
+      "answer": "27",
+      "explanation": "The + operator adds the integers: 10 + 17 = 27."
+    },
+    {
+      "id": 424,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 18 in Python?",
+      "options": [
+        "8",
+        "28",
+        "29",
+        "180"
+      ],
+      "answer": "28",
+      "explanation": "The + operator adds the integers: 10 + 18 = 28."
+    },
+    {
+      "id": 425,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 10 + 19 in Python?",
+      "options": [
+        "29",
+        "30",
+        "190",
+        "9"
+      ],
+      "answer": "29",
+      "explanation": "The + operator adds the integers: 10 + 19 = 29."
+    },
+    {
+      "id": 426,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 3 in Python?",
+      "options": [
+        "15",
+        "33",
+        "8",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "The + operator adds the integers: 11 + 3 = 14."
+    },
+    {
+      "id": 427,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 4 in Python?",
+      "options": [
+        "44",
+        "7",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "The + operator adds the integers: 11 + 4 = 15."
+    },
+    {
+      "id": 428,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 5 in Python?",
+      "options": [
+        "6",
+        "16",
+        "17",
+        "55"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 11 + 5 = 16."
+    },
+    {
+      "id": 429,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 6 in Python?",
+      "options": [
+        "17",
+        "18",
+        "66",
+        "5"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 11 + 6 = 17."
+    },
+    {
+      "id": 430,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 7 in Python?",
+      "options": [
+        "19",
+        "77",
+        "4",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 11 + 7 = 18."
+    },
+    {
+      "id": 431,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 8 in Python?",
+      "options": [
+        "88",
+        "3",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 11 + 8 = 19."
+    },
+    {
+      "id": 432,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 9 in Python?",
+      "options": [
+        "2",
+        "20",
+        "21",
+        "99"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 11 + 9 = 20."
+    },
+    {
+      "id": 433,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 10 in Python?",
+      "options": [
+        "21",
+        "22",
+        "110",
+        "1"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 11 + 10 = 21."
+    },
+    {
+      "id": 434,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 11 in Python?",
+      "options": [
+        "23",
+        "121",
+        "0",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 11 + 11 = 22."
+    },
+    {
+      "id": 435,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 12 in Python?",
+      "options": [
+        "132",
+        "1",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 11 + 12 = 23."
+    },
+    {
+      "id": 436,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 13 in Python?",
+      "options": [
+        "2",
+        "24",
+        "25",
+        "143"
+      ],
+      "answer": "24",
+      "explanation": "The + operator adds the integers: 11 + 13 = 24."
+    },
+    {
+      "id": 437,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 14 in Python?",
+      "options": [
+        "25",
+        "26",
+        "154",
+        "3"
+      ],
+      "answer": "25",
+      "explanation": "The + operator adds the integers: 11 + 14 = 25."
+    },
+    {
+      "id": 438,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 15 in Python?",
+      "options": [
+        "27",
+        "165",
+        "4",
+        "26"
+      ],
+      "answer": "26",
+      "explanation": "The + operator adds the integers: 11 + 15 = 26."
+    },
+    {
+      "id": 439,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 16 in Python?",
+      "options": [
+        "176",
+        "5",
+        "27",
+        "28"
+      ],
+      "answer": "27",
+      "explanation": "The + operator adds the integers: 11 + 16 = 27."
+    },
+    {
+      "id": 440,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 17 in Python?",
+      "options": [
+        "6",
+        "28",
+        "29",
+        "187"
+      ],
+      "answer": "28",
+      "explanation": "The + operator adds the integers: 11 + 17 = 28."
+    },
+    {
+      "id": 441,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 18 in Python?",
+      "options": [
+        "29",
+        "30",
+        "198",
+        "7"
+      ],
+      "answer": "29",
+      "explanation": "The + operator adds the integers: 11 + 18 = 29."
+    },
+    {
+      "id": 442,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 11 + 19 in Python?",
+      "options": [
+        "31",
+        "209",
+        "8",
+        "30"
+      ],
+      "answer": "30",
+      "explanation": "The + operator adds the integers: 11 + 19 = 30."
+    },
+    {
+      "id": 443,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 3 in Python?",
+      "options": [
+        "36",
+        "9",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "The + operator adds the integers: 12 + 3 = 15."
+    },
+    {
+      "id": 444,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 4 in Python?",
+      "options": [
+        "8",
+        "16",
+        "17",
+        "48"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 12 + 4 = 16."
+    },
+    {
+      "id": 445,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 5 in Python?",
+      "options": [
+        "17",
+        "18",
+        "60",
+        "7"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 12 + 5 = 17."
+    },
+    {
+      "id": 446,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 6 in Python?",
+      "options": [
+        "19",
+        "72",
+        "6",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 12 + 6 = 18."
+    },
+    {
+      "id": 447,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 7 in Python?",
+      "options": [
+        "84",
+        "5",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 12 + 7 = 19."
+    },
+    {
+      "id": 448,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 8 in Python?",
+      "options": [
+        "4",
+        "20",
+        "21",
+        "96"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 12 + 8 = 20."
+    },
+    {
+      "id": 449,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 9 in Python?",
+      "options": [
+        "21",
+        "22",
+        "108",
+        "3"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 12 + 9 = 21."
+    },
+    {
+      "id": 450,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 10 in Python?",
+      "options": [
+        "23",
+        "120",
+        "2",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 12 + 10 = 22."
+    },
+    {
+      "id": 451,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 11 in Python?",
+      "options": [
+        "132",
+        "1",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 12 + 11 = 23."
+    },
+    {
+      "id": 452,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 12 in Python?",
+      "options": [
+        "0",
+        "24",
+        "25",
+        "144"
+      ],
+      "answer": "24",
+      "explanation": "The + operator adds the integers: 12 + 12 = 24."
+    },
+    {
+      "id": 453,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 13 in Python?",
+      "options": [
+        "25",
+        "26",
+        "156",
+        "1"
+      ],
+      "answer": "25",
+      "explanation": "The + operator adds the integers: 12 + 13 = 25."
+    },
+    {
+      "id": 454,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 14 in Python?",
+      "options": [
+        "27",
+        "168",
+        "2",
+        "26"
+      ],
+      "answer": "26",
+      "explanation": "The + operator adds the integers: 12 + 14 = 26."
+    },
+    {
+      "id": 455,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 15 in Python?",
+      "options": [
+        "180",
+        "3",
+        "27",
+        "28"
+      ],
+      "answer": "27",
+      "explanation": "The + operator adds the integers: 12 + 15 = 27."
+    },
+    {
+      "id": 456,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 16 in Python?",
+      "options": [
+        "4",
+        "28",
+        "29",
+        "192"
+      ],
+      "answer": "28",
+      "explanation": "The + operator adds the integers: 12 + 16 = 28."
+    },
+    {
+      "id": 457,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 17 in Python?",
+      "options": [
+        "29",
+        "30",
+        "204",
+        "5"
+      ],
+      "answer": "29",
+      "explanation": "The + operator adds the integers: 12 + 17 = 29."
+    },
+    {
+      "id": 458,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 18 in Python?",
+      "options": [
+        "31",
+        "216",
+        "6",
+        "30"
+      ],
+      "answer": "30",
+      "explanation": "The + operator adds the integers: 12 + 18 = 30."
+    },
+    {
+      "id": 459,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 12 + 19 in Python?",
+      "options": [
+        "228",
+        "7",
+        "31",
+        "32"
+      ],
+      "answer": "31",
+      "explanation": "The + operator adds the integers: 12 + 19 = 31."
+    },
+    {
+      "id": 460,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 3 in Python?",
+      "options": [
+        "10",
+        "16",
+        "17",
+        "39"
+      ],
+      "answer": "16",
+      "explanation": "The + operator adds the integers: 13 + 3 = 16."
+    },
+    {
+      "id": 461,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 4 in Python?",
+      "options": [
+        "17",
+        "18",
+        "52",
+        "9"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 13 + 4 = 17."
+    },
+    {
+      "id": 462,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 5 in Python?",
+      "options": [
+        "19",
+        "65",
+        "8",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 13 + 5 = 18."
+    },
+    {
+      "id": 463,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 6 in Python?",
+      "options": [
+        "78",
+        "7",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 13 + 6 = 19."
+    },
+    {
+      "id": 464,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 7 in Python?",
+      "options": [
+        "6",
+        "20",
+        "21",
+        "91"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 13 + 7 = 20."
+    },
+    {
+      "id": 465,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 8 in Python?",
+      "options": [
+        "21",
+        "22",
+        "104",
+        "5"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 13 + 8 = 21."
+    },
+    {
+      "id": 466,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 9 in Python?",
+      "options": [
+        "23",
+        "117",
+        "4",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 13 + 9 = 22."
+    },
+    {
+      "id": 467,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 10 in Python?",
+      "options": [
+        "130",
+        "3",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 13 + 10 = 23."
+    },
+    {
+      "id": 468,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 11 in Python?",
+      "options": [
+        "2",
+        "24",
+        "25",
+        "143"
+      ],
+      "answer": "24",
+      "explanation": "The + operator adds the integers: 13 + 11 = 24."
+    },
+    {
+      "id": 469,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 12 in Python?",
+      "options": [
+        "25",
+        "26",
+        "156",
+        "1"
+      ],
+      "answer": "25",
+      "explanation": "The + operator adds the integers: 13 + 12 = 25."
+    },
+    {
+      "id": 470,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 13 in Python?",
+      "options": [
+        "27",
+        "169",
+        "0",
+        "26"
+      ],
+      "answer": "26",
+      "explanation": "The + operator adds the integers: 13 + 13 = 26."
+    },
+    {
+      "id": 471,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 14 in Python?",
+      "options": [
+        "182",
+        "1",
+        "27",
+        "28"
+      ],
+      "answer": "27",
+      "explanation": "The + operator adds the integers: 13 + 14 = 27."
+    },
+    {
+      "id": 472,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 15 in Python?",
+      "options": [
+        "2",
+        "28",
+        "29",
+        "195"
+      ],
+      "answer": "28",
+      "explanation": "The + operator adds the integers: 13 + 15 = 28."
+    },
+    {
+      "id": 473,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 16 in Python?",
+      "options": [
+        "29",
+        "30",
+        "208",
+        "3"
+      ],
+      "answer": "29",
+      "explanation": "The + operator adds the integers: 13 + 16 = 29."
+    },
+    {
+      "id": 474,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 17 in Python?",
+      "options": [
+        "31",
+        "221",
+        "4",
+        "30"
+      ],
+      "answer": "30",
+      "explanation": "The + operator adds the integers: 13 + 17 = 30."
+    },
+    {
+      "id": 475,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 18 in Python?",
+      "options": [
+        "234",
+        "5",
+        "31",
+        "32"
+      ],
+      "answer": "31",
+      "explanation": "The + operator adds the integers: 13 + 18 = 31."
+    },
+    {
+      "id": 476,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 13 + 19 in Python?",
+      "options": [
+        "6",
+        "32",
+        "33",
+        "247"
+      ],
+      "answer": "32",
+      "explanation": "The + operator adds the integers: 13 + 19 = 32."
+    },
+    {
+      "id": 477,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 3 in Python?",
+      "options": [
+        "17",
+        "18",
+        "42",
+        "11"
+      ],
+      "answer": "17",
+      "explanation": "The + operator adds the integers: 14 + 3 = 17."
+    },
+    {
+      "id": 478,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 4 in Python?",
+      "options": [
+        "19",
+        "56",
+        "10",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 14 + 4 = 18."
+    },
+    {
+      "id": 479,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 5 in Python?",
+      "options": [
+        "70",
+        "9",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 14 + 5 = 19."
+    },
+    {
+      "id": 480,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 6 in Python?",
+      "options": [
+        "8",
+        "20",
+        "21",
+        "84"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 14 + 6 = 20."
+    },
+    {
+      "id": 481,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 7 in Python?",
+      "options": [
+        "21",
+        "22",
+        "98",
+        "7"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 14 + 7 = 21."
+    },
+    {
+      "id": 482,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 8 in Python?",
+      "options": [
+        "23",
+        "112",
+        "6",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 14 + 8 = 22."
+    },
+    {
+      "id": 483,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 9 in Python?",
+      "options": [
+        "126",
+        "5",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 14 + 9 = 23."
+    },
+    {
+      "id": 484,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 10 in Python?",
+      "options": [
+        "4",
+        "24",
+        "25",
+        "140"
+      ],
+      "answer": "24",
+      "explanation": "The + operator adds the integers: 14 + 10 = 24."
+    },
+    {
+      "id": 485,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 11 in Python?",
+      "options": [
+        "25",
+        "26",
+        "154",
+        "3"
+      ],
+      "answer": "25",
+      "explanation": "The + operator adds the integers: 14 + 11 = 25."
+    },
+    {
+      "id": 486,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 12 in Python?",
+      "options": [
+        "27",
+        "168",
+        "2",
+        "26"
+      ],
+      "answer": "26",
+      "explanation": "The + operator adds the integers: 14 + 12 = 26."
+    },
+    {
+      "id": 487,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 13 in Python?",
+      "options": [
+        "182",
+        "1",
+        "27",
+        "28"
+      ],
+      "answer": "27",
+      "explanation": "The + operator adds the integers: 14 + 13 = 27."
+    },
+    {
+      "id": 488,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 14 in Python?",
+      "options": [
+        "0",
+        "28",
+        "29",
+        "196"
+      ],
+      "answer": "28",
+      "explanation": "The + operator adds the integers: 14 + 14 = 28."
+    },
+    {
+      "id": 489,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 15 in Python?",
+      "options": [
+        "29",
+        "30",
+        "210",
+        "1"
+      ],
+      "answer": "29",
+      "explanation": "The + operator adds the integers: 14 + 15 = 29."
+    },
+    {
+      "id": 490,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 16 in Python?",
+      "options": [
+        "31",
+        "224",
+        "2",
+        "30"
+      ],
+      "answer": "30",
+      "explanation": "The + operator adds the integers: 14 + 16 = 30."
+    },
+    {
+      "id": 491,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 17 in Python?",
+      "options": [
+        "238",
+        "3",
+        "31",
+        "32"
+      ],
+      "answer": "31",
+      "explanation": "The + operator adds the integers: 14 + 17 = 31."
+    },
+    {
+      "id": 492,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 18 in Python?",
+      "options": [
+        "4",
+        "32",
+        "33",
+        "252"
+      ],
+      "answer": "32",
+      "explanation": "The + operator adds the integers: 14 + 18 = 32."
+    },
+    {
+      "id": 493,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 14 + 19 in Python?",
+      "options": [
+        "33",
+        "34",
+        "266",
+        "5"
+      ],
+      "answer": "33",
+      "explanation": "The + operator adds the integers: 14 + 19 = 33."
+    },
+    {
+      "id": 494,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 15 + 3 in Python?",
+      "options": [
+        "19",
+        "45",
+        "12",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "The + operator adds the integers: 15 + 3 = 18."
+    },
+    {
+      "id": 495,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 15 + 4 in Python?",
+      "options": [
+        "60",
+        "11",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "The + operator adds the integers: 15 + 4 = 19."
+    },
+    {
+      "id": 496,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 15 + 5 in Python?",
+      "options": [
+        "10",
+        "20",
+        "21",
+        "75"
+      ],
+      "answer": "20",
+      "explanation": "The + operator adds the integers: 15 + 5 = 20."
+    },
+    {
+      "id": 497,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 15 + 6 in Python?",
+      "options": [
+        "21",
+        "22",
+        "90",
+        "9"
+      ],
+      "answer": "21",
+      "explanation": "The + operator adds the integers: 15 + 6 = 21."
+    },
+    {
+      "id": 498,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 15 + 7 in Python?",
+      "options": [
+        "23",
+        "105",
+        "8",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The + operator adds the integers: 15 + 7 = 22."
+    },
+    {
+      "id": 499,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 15 + 8 in Python?",
+      "options": [
+        "120",
+        "7",
+        "23",
+        "24"
+      ],
+      "answer": "23",
+      "explanation": "The + operator adds the integers: 15 + 8 = 23."
+    },
+    {
+      "id": 500,
+      "topic": "Code Reading",
+      "difficulty": "Easy",
+      "question": "What is the result of 15 + 9 in Python?",
+      "options": [
+        "6",
+        "24",
+        "25",
+        "135"
+      ],
+      "answer": "24",
+      "explanation": "The + operator adds the integers: 15 + 9 = 24."
+    }
+  ]
+}
